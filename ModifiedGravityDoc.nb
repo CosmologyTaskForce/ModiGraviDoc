@@ -1,0 +1,2118 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     66258,       2109]
+NotebookOptionsPosition[     61270,       1972]
+NotebookOutlinePosition[     62228,       2007]
+CellTagsIndexPosition[     62065,       1999]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Modified Gravity", "Title",
+ CellChangeTimes->{{3.547011934480917*^9, 3.547011946807622*^9}}],
+
+Cell["A list of modified gravity for reference use", "Subtitle",
+ CellChangeTimes->{{3.5470119493467674`*^9, 3.547011977812395*^9}}],
+
+Cell["MA Lei", "Author",
+ CellChangeTimes->{{3.547012031694477*^9, 3.5470120602691116`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["", "Section"],
+
+Cell[CellGroupData[{
+
+Cell["Abstract", "AbstractSection",
+ CellChangeTimes->{{3.5470120653894043`*^9, 3.5470120669424934`*^9}, {
+  3.547012209886669*^9, 3.547012293102429*^9}, {3.5470123692837863`*^9, 
+  3.547012369611805*^9}, {3.5470124039067664`*^9, 3.5470124257240143`*^9}}],
+
+Cell["\<\
+This is an article for myself. I listed some basic knowledge about modified \
+gravity.\
+\>", "Abstract",
+ CellChangeTimes->{{3.5470124295782347`*^9, 3.5470125262147617`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["f(R) Gravity", "Section",
+ CellChangeTimes->{{3.547012530377*^9, 3.5470125487520514`*^9}}],
+
+Cell[TextData[{
+ StyleBox["Keypoint",
+  FontWeight->"Bold"],
+ ": Theories that changes R to f(R) in Hillbert-Einstein action.\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[ScriptCapitalL]", "=", 
+    RowBox[{
+     SqrtBox[
+      RowBox[{"-", "g"}]], "R"}]}], TraditionalForm]]],
+ "    ->  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[ScriptCapitalL]", "=", 
+    RowBox[{
+     SqrtBox[
+      RowBox[{"-", "g"}]], 
+     RowBox[{"f", "(", "R", ")"}]}]}], TraditionalForm]]]
+}], "Text",
+ CellChangeTimes->{{3.547012617804001*^9, 3.5470126501058483`*^9}}],
+
+Cell["A standard action of f(R) gravity is", "Text",
+ CellChangeTimes->{{3.5470126537940593`*^9, 3.5470126547111115`*^9}, {
+  3.547012687008959*^9, 3.5470127091022224`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"S", "=", 
+   RowBox[{
+    RowBox[{
+     FractionBox["1", 
+      RowBox[{"2", "\[Kappa]"}]], 
+     RowBox[{"\[Integral]", 
+      RowBox[{
+       SuperscriptBox["d", "4"], "x", " ", 
+       SqrtBox[
+        RowBox[{"-", "g"}]], 
+       RowBox[{"f", "(", "R", ")"}]}]}]}], " ", "+", " ", 
+    RowBox[{"\[Integral]", 
+     RowBox[{
+      SuperscriptBox["d", "4"], "x", " ", 
+      RowBox[{
+       SubscriptBox["\[ScriptCapitalL]", "M"], "(", 
+       RowBox[{
+        SubscriptBox["g", "\[Mu]\[Nu]"], ",", 
+        SubscriptBox["\[CapitalPsi]", "M"]}], ")"}]}]}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.54701280871392*^9, 3.5470128094019594`*^9}, {
+  3.54703169771923*^9, 3.547031697730202*^9}},
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell["\<\
+Thus the field equation can be calculated using the variation principle.\
+\>", "Text",
+ CellChangeTimes->{{3.547031459106856*^9, 3.547031462757839*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Field Equation",
+ FontWeight->"Bold"]], "Subsubsection",
+ CellChangeTimes->{{3.54703166089777*^9, 3.547031672203014*^9}, {
+   3.547032302259251*^9, 3.547032302272423*^9}, 3.5471963779363403`*^9}],
+
+Cell["Variation of action", "Text",
+ CellChangeTimes->{{3.547032304717725*^9, 3.54703231160878*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"\[Delta]S", "\[AlignmentMarker]", "\[Congruent]", 
+     FractionBox[
+      RowBox[{"d", " ", 
+       RowBox[{"S", "[", "\[Lambda]", "]"}]}], 
+      RowBox[{"d", " ", "\[Lambda]"}]]}], 
+    SubscriptBox["|", 
+     RowBox[{"\[Lambda]", "=", "0"}]]}], "\n", "\[AlignmentMarker]", "=", 
+   RowBox[{"\[Integral]", 
+    RowBox[{
+     SuperscriptBox["d", "4"], "x", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["\[Delta]\[ScriptCapitalL]", "G"], "+", 
+       SubscriptBox["\[Delta]\[ScriptCapitalL]", "m"]}], ")"}]}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.547031677643144*^9, 3.547031677731772*^9}, {
+   3.547031717097259*^9, 3.547031739764551*^9}, {3.547031829140755*^9, 
+   3.547031863505499*^9}, {3.54703208900036*^9, 3.547032113752619*^9}, 
+   3.5471180743187866`*^9, {3.547193990470785*^9, 3.547193995236058*^9}},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell[TextData[{
+ "Calculate the terms seperately. Useful expressions are lised here. ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Delta]g", "=", 
+    RowBox[{"g", " ", 
+     SuperscriptBox["g", "ab"], 
+     SubscriptBox["\[Delta]g", "ab"]}]}], TraditionalForm]]],
+ " , ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["\[Delta]g", "ab"], "=", 
+    RowBox[{
+     RowBox[{"-", 
+      SuperscriptBox["g", "ab"]}], 
+     SuperscriptBox["g", "bd"], 
+     SubscriptBox["\[Delta]g", "cd"]}]}], TraditionalForm]]],
+ ". Some definations are also listed here. ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"F", "[", "R", "]"}], "\[Congruent]", 
+    FractionBox[
+     RowBox[{"d", " ", 
+      RowBox[{"f", "[", "R", "]"}]}], 
+     RowBox[{"d", " ", "R"}]]}], TraditionalForm]]],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.547032294565417*^9, 3.547032334664702*^9}, {
+  3.547032657868323*^9, 3.547032664242565*^9}, {3.547032765710027*^9, 
+  3.547032790336383*^9}, {3.547032835733744*^9, 3.547032835777152*^9}, {
+  3.547032909428532*^9, 3.54703305655535*^9}, {3.54703311761438*^9, 
+  3.547033153829805*^9}, {3.547033239566718*^9, 3.54703326324798*^9}, {
+  3.54703341541163*^9, 3.547033416428009*^9}}],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   SubscriptBox["\[Delta]\[ScriptCapitalL]", "G"], "\[AlignmentMarker]", "=", 
+   RowBox[{
+    FractionBox["1", 
+     RowBox[{"2", 
+      SuperscriptBox["\[Kappa]", "2"]}]], 
+    RowBox[{"\[Delta]", "(", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", 
+        RowBox[{"g", "[", "\[Lambda]", "]"}]}]], 
+      RowBox[{"f", "[", 
+       RowBox[{"R", "[", "\[Lambda]", "]"}], "]"}]}], ")"}]}]}], 
+  TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"2", 
+        SuperscriptBox["\[Kappa]", "2"]}]], 
+      FractionBox[
+       RowBox[{"d", 
+        SqrtBox[
+         RowBox[{"-", 
+          RowBox[{"g", "[", "\[Lambda]", "]"}]}]]}], 
+       RowBox[{"d", " ", "\[Lambda]"}]]}], 
+     SubscriptBox["|", 
+      RowBox[{"\[Lambda]", "=", "0"}]], 
+     RowBox[{
+      RowBox[{"f", "[", "R", "]"}], "+", 
+      RowBox[{
+       FractionBox["1", 
+        RowBox[{"2", 
+         SuperscriptBox["\[Kappa]", "2"]}]], 
+       SqrtBox[
+        RowBox[{"-", "g"}]], 
+       FractionBox[
+        RowBox[{"d", " ", 
+         RowBox[{"f", "[", "R", "]"}]}], 
+        RowBox[{"d", " ", "\[Lambda]"}]]}]}], 
+     SubscriptBox["|", 
+      RowBox[{"\[Lambda]", "=", "0"}]]}]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"f", "[", "R", "]"}], 
+        RowBox[{"(", 
+         FractionBox[
+          RowBox[{"-", "1"}], 
+          RowBox[{"2", 
+           SqrtBox[
+            RowBox[{"-", "g"}]]}]], ")"}], "\[Delta]g"}], " ", "+", " ", 
+       RowBox[{
+        SqrtBox[
+         RowBox[{"-", "g"}]], 
+        RowBox[{"F", "[", "R", "]"}], " ", "\[Delta]R"}]}], ")"}], 
+     FractionBox["1", 
+      RowBox[{"2", 
+       SuperscriptBox["\[Kappa]", "2"]}]]}]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        FractionBox["1", "2"], 
+        RowBox[{"f", "[", "R", "]"}], 
+        SuperscriptBox["g", "ab"], 
+        SubscriptBox["\[Delta]g", "ab"]}], "+", 
+       RowBox[{
+        SqrtBox[
+         RowBox[{"-", "g"}]], 
+        RowBox[{"F", "[", "R", "]"}], " ", 
+        RowBox[{"(", 
+         SuperscriptBox["\[Delta]g", "ab"], ")"}], 
+        SubscriptBox["R", "ab"]}], "+", 
+       RowBox[{
+        SqrtBox[
+         RowBox[{"-", "g"}]], 
+        RowBox[{"F", "[", "R", "]"}], 
+        SuperscriptBox["g", "ab"], 
+        SubscriptBox["\[Delta]R", "ab"]}]}], ")"}], 
+     FractionBox["1", 
+      RowBox[{"2", 
+       SuperscriptBox["\[Kappa]", "2"]}]]}]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"\[Congruent]", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"M1", " ", "+", " ", "M2", " ", "+", " ", "M3"}], ")"}], 
+     FractionBox["1", 
+      RowBox[{"2", 
+       SuperscriptBox["\[Kappa]", "2"]}]]}]}]}], 
+  TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{{3.547032335886785*^9, 3.547032464184884*^9}, {
+   3.547032513144818*^9, 3.547032517229513*^9}, 3.5471355536215453`*^9, {
+   3.547193971652709*^9, 3.547193981967299*^9}},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell["Calculate M1, M2 and M3.", "Text",
+ CellChangeTimes->{{3.547033578146872*^9, 3.547033589486885*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"M1", "=", 
+   RowBox[{
+    FractionBox["1", "2"], 
+    RowBox[{"f", "[", "R", "]"}], 
+    SuperscriptBox["g", "ab"], 
+    SubscriptBox["\[Delta]g", "ab"]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.547033593086639*^9, 3.547033619803669*^9}, 
+   3.547033680270631*^9, {3.547033767201039*^9, 3.547033784681325*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{"M2", "\[AlignmentMarker]", "=", 
+   RowBox[{
+    SqrtBox[
+     RowBox[{"-", "g"}]], 
+    RowBox[{"F", "[", "R", "]"}], 
+    SuperscriptBox["\[Delta]g", "ab"], 
+    SubscriptBox["R", "ab"]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     SqrtBox[
+      RowBox[{"-", "g"}]], 
+     RowBox[{"F", "[", "R", "]"}], 
+     RowBox[{
+      SubscriptBox["R", "ab"], "(", 
+      RowBox[{
+       RowBox[{"-", 
+        SuperscriptBox["g", "ac"]}], 
+       SuperscriptBox["g", "bd"], 
+       SubscriptBox["\[Delta]g", "cd"]}], ")"}]}]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{"-", 
+      SqrtBox[
+       RowBox[{"-", "g"}]]}], 
+     RowBox[{"F", "[", "R", "]"}], 
+     SuperscriptBox["R", "ab"], 
+     SubscriptBox["\[Delta]g", "ab"]}]}]}], 
+  TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{{3.547033813715647*^9, 3.547033842630086*^9}, 
+   3.547033914514967*^9, 3.5471355132242346`*^9, {3.5471939571078773`*^9, 
+   3.5471939617821445`*^9}},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{"M3", "\[AlignmentMarker]", "=", 
+   RowBox[{
+    SqrtBox[
+     RowBox[{"-", "g"}]], 
+    RowBox[{"F", "[", "R", "]"}], 
+    SuperscriptBox["g", "ab"], 
+    SubscriptBox["\[Delta]R", "ab"]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     SqrtBox[
+      RowBox[{"-", "g"}]], 
+     RowBox[{"F", "[", "R", "]"}], 
+     RowBox[{
+      SuperscriptBox["\[Del]", "a"], 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         SuperscriptBox["\[Del]", "b"], 
+         SubscriptBox["\[Delta]g", "ab"]}], "-", 
+        RowBox[{
+         SuperscriptBox["g", "bc"], 
+         RowBox[{
+          SubscriptBox["\[Del]", "a"], 
+          SubscriptBox["\[Delta]g", "bc"]}]}]}], ")"}]}]}]}]}], 
+  TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     SqrtBox[
+      RowBox[{"-", "g"}]], 
+     RowBox[{"F", "[", "R", "]"}], 
+     RowBox[{
+      SuperscriptBox["\[Del]", "a"], 
+      SubscriptBox["v", "a"]}]}]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "a"], 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"F", "[", "R", "]"}], " ", 
+         SubscriptBox["v", "a"]}], ")"}]}]}], "-", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      SubscriptBox["v", "a"], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "a"], 
+       RowBox[{"F", "[", "R", "]"}]}]}]}]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "a"], 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"F", "[", "R", "]"}], " ", 
+         SubscriptBox["v", "a"]}], ")"}]}]}], "-", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         SuperscriptBox["\[Del]", "b"], 
+         SubscriptBox["\[Delta]g", "ab"]}], "-", 
+        RowBox[{
+         SuperscriptBox["g", "bc"], 
+         RowBox[{
+          SubscriptBox["\[Del]", "a"], 
+          SubscriptBox["\[Delta]g", "bc"]}]}]}], ")"}], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "a"], 
+       RowBox[{"F", "[", "R", "]"}]}]}]}]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "a"], 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"F", "[", "R", "]"}], " ", 
+         SubscriptBox["v", "a"]}], ")"}]}]}], "-", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["\[Del]", "b"], 
+        SubscriptBox["\[Delta]g", "ab"]}], ")"}], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "a"], 
+       RowBox[{"F", "[", "R", "]"}]}]}], " ", "+", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      SuperscriptBox["g", "bc"], 
+      RowBox[{
+       SubscriptBox["\[Del]", "a"], 
+       SubscriptBox["\[Delta]g", "bc"]}], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "a"], 
+       RowBox[{"F", "[", "R", "]"}]}]}]}]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "a"], 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"F", "[", "R", "]"}], " ", 
+         SubscriptBox["v", "a"]}], ")"}]}]}], "-", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "b"], 
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox["\[Delta]g", "ab"], 
+         RowBox[{
+          SuperscriptBox["\[Del]", "a"], 
+          RowBox[{"F", "[", "R", "]"}]}]}], ")"}]}]}], " ", "+", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "b"], 
+       RowBox[{
+        SuperscriptBox["\[Del]", "a"], 
+        RowBox[{"F", "[", "R", "]"}]}]}], 
+      SubscriptBox["\[Delta]g", "ab"]}], "+", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SubscriptBox["\[Del]", "e"], 
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["g", "ba"], 
+         SubscriptBox["\[Delta]g", "ba"], 
+         RowBox[{
+          SuperscriptBox["\[Del]", "e"], 
+          RowBox[{"F", "[", "R", "]"}]}]}], ")"}]}]}], "-", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SubscriptBox["\[Del]", "e"], 
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["g", "ab"], 
+         RowBox[{
+          SuperscriptBox["\[Del]", "e"], "F"}]}], ")"}]}], 
+      SubscriptBox["\[Delta]g", "ab"]}]}]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "a"], 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"F", "[", "R", "]"}], " ", 
+         SubscriptBox["v", "a"]}], ")"}]}]}], "-", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "b"], 
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox["\[Delta]g", "ab"], 
+         RowBox[{
+          SuperscriptBox["\[Del]", "a"], 
+          RowBox[{"F", "[", "R", "]"}]}]}], ")"}]}]}], " ", "+", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "b"], 
+       RowBox[{
+        SuperscriptBox["\[Del]", "a"], 
+        RowBox[{"F", "[", "R", "]"}]}]}], 
+      SubscriptBox["\[Delta]g", "ab"]}], "+", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SubscriptBox["\[Del]", "e"], 
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["g", "ba"], 
+         SubscriptBox["\[Delta]g", "ba"], 
+         RowBox[{
+          SuperscriptBox["\[Del]", "e"], 
+          RowBox[{"F", "[", "R", "]"}]}]}], ")"}]}]}], "-", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      SuperscriptBox["g", "ab"], 
+      RowBox[{
+       SubscriptBox["\[Del]", "e"], 
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["\[Del]", "e"], "F"}], ")"}]}], 
+      SubscriptBox["\[Delta]g", "ab"]}], "-", 
+     RowBox[{
+      SqrtBox[
+       RowBox[{"-", "g"}]], 
+      RowBox[{
+       SubscriptBox["\[Del]", "e"], 
+       RowBox[{"(", 
+        SuperscriptBox["g", "ab"], ")"}]}], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "e"], 
+       SubscriptBox["F\[Delta]g", "ab"]}]}]}]}]}], 
+  TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{{3.547034001141471*^9, 3.547034019461574*^9}, {
+   3.54703407679995*^9, 3.547034087354812*^9}, 3.5471354991594305`*^9, {
+   3.547193933329517*^9, 3.5471939490754175`*^9}},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell["\<\
+The integration of some terms will be zero. They are\
+\>", "Text",
+ CellChangeTimes->{{3.54703656882596*^9, 3.547036572551173*^9}, {
+  3.547036613494515*^9, 3.5470367005084486`*^9}, {3.5470367471561165`*^9, 
+  3.5470367577337217`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SqrtBox[
+    RowBox[{"-", "g"}]], 
+   RowBox[{
+    SuperscriptBox["\[Del]", "a"], 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"F", "[", "R", "]"}], " ", 
+      SubscriptBox["v", "a"]}], ")"}]}]}], TraditionalForm]], "Equation",
+ CellChangeTimes->{{3.547036760025853*^9, 3.5470367773058414`*^9}, {
+  3.5470368741583805`*^9, 3.547036889228243*^9}}],
+
+Cell["\<\
+(for this is just similar to a term classical Hilbert Einstein action which \
+is cancel by a additional term or by restating the Hamilton principle.)\
+\>", "Text",
+ CellChangeTimes->{{3.5470368944005384`*^9, 3.5470370048558564`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"-", 
+    SqrtBox[
+     RowBox[{"-", "g"}]]}], 
+   RowBox[{
+    SuperscriptBox["\[Del]", "b"], 
+    RowBox[{"(", 
+     RowBox[{
+      SubscriptBox["\[Delta]g", "ab"], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "a"], 
+       RowBox[{"F", "[", "R", "]"}]}]}], ")"}], " "}]}], 
+  TraditionalForm]], "Equation",
+ CellChangeTimes->{{3.547036786889389*^9, 3.547036787129403*^9}, 
+   3.547037008472063*^9}],
+
+Cell[TextData[{
+ "(for at the boundary ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Delta]g", "ab"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " becomes zero.)"
+}], "Text",
+ CellChangeTimes->{{3.5470370100501537`*^9, 3.5470370719736953`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SqrtBox[
+    RowBox[{"-", "g"}]], 
+   RowBox[{
+    SubscriptBox["\[Del]", "e"], 
+    RowBox[{"(", 
+     RowBox[{
+      SuperscriptBox["g", "ba"], 
+      SubscriptBox["\[Delta]g", "ba"], 
+      RowBox[{
+       SuperscriptBox["\[Del]", "e"], 
+       RowBox[{"F", "[", "R", "]"}]}]}], ")"}]}]}], 
+  TraditionalForm]], "Equation",
+ CellChangeTimes->{{3.547036795604888*^9, 3.547036796448936*^9}, 
+   3.54703707398081*^9}],
+
+Cell[TextData[{
+ "(for at boundary ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["\[Delta]g", "ab"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " is zero.)"
+}], "Text",
+ CellChangeTimes->{{3.5470370755529003`*^9, 3.547037107612734*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"-", 
+    SqrtBox[
+     RowBox[{"-", "g"}]]}], 
+   RowBox[{
+    SubscriptBox["\[Del]", "e"], 
+    RowBox[{"(", 
+     SuperscriptBox["g", "ab"], ")"}]}], 
+   RowBox[{
+    SuperscriptBox["\[Del]", "e"], 
+    SubscriptBox["F\[Delta]g", "ab"]}]}], TraditionalForm]], "Equation",
+ CellChangeTimes->{3.547036806968538*^9, 3.5470371103798923`*^9}],
+
+Cell["\<\
+(for this is the trandition we made.)\
+\>", "Text",
+ CellChangeTimes->{{3.5470371116719656`*^9, 3.5470371357723446`*^9}}],
+
+Cell["\<\
+The variation of the action of matter is\
+\>", "Text",
+ CellChangeTimes->{{3.54703656882596*^9, 3.547036572551173*^9}, {
+  3.547036613494515*^9, 3.5470366696607275`*^9}, {3.5470371655440474`*^9, 
+  3.5470371827010283`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["\[Delta]S", "m"], "=", 
+   RowBox[{"\[Integral]", 
+    RowBox[{
+     SuperscriptBox["d", "4"], 
+     RowBox[{"x", "(", 
+      RowBox[{
+       FractionBox["1", "2"], 
+       SuperscriptBox["T", "ab"], 
+       SqrtBox[
+        RowBox[{"-", "g"}]]}], ")"}]}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.5470371848231497`*^9, 3.547037232342868*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell["\<\
+Finally the integration of these terms is\
+\>", "Text",
+ CellChangeTimes->{{3.54703656882596*^9, 3.547036572551173*^9}, {
+   3.547036613494515*^9, 3.5470366696607275`*^9}, 3.5470371655440474`*^9}],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{"\[Delta]S", "\[AlignmentMarker]", "=", 
+   RowBox[{
+    RowBox[{"\[Integral]", 
+     RowBox[{
+      SuperscriptBox["d", "4"], "x", " ", 
+      RowBox[{"(", 
+       SubscriptBox["\[Delta]\[ScriptCapitalL]", "G"], ")"}]}]}], " ", "+", 
+    " ", 
+    SubscriptBox["\[Delta]S", "m"]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{"\[Integral]", 
+      RowBox[{
+       SuperscriptBox["d", "4"], 
+       RowBox[{"x", "(", 
+        RowBox[{
+         RowBox[{
+          SqrtBox[
+           RowBox[{"-", "g"}]], 
+          RowBox[{
+           SuperscriptBox["\[Del]", "a"], 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"F", "[", "R", "]"}], " ", 
+             SubscriptBox["v", "a"]}], ")"}]}]}], "-", 
+         RowBox[{
+          SqrtBox[
+           RowBox[{"-", "g"}]], 
+          RowBox[{
+           SuperscriptBox["\[Del]", "b"], 
+           RowBox[{"(", 
+            RowBox[{
+             SubscriptBox["\[Delta]g", "ab"], 
+             RowBox[{
+              SuperscriptBox["\[Del]", "a"], 
+              RowBox[{"F", "[", "R", "]"}]}]}], ")"}]}]}], " ", "+", 
+         RowBox[{
+          SqrtBox[
+           RowBox[{"-", "g"}]], 
+          RowBox[{
+           SuperscriptBox["\[Del]", "b"], 
+           RowBox[{
+            SuperscriptBox["\[Del]", "a"], 
+            RowBox[{"F", "[", "R", "]"}]}]}], 
+          SubscriptBox["\[Delta]g", "ab"]}], "+", 
+         RowBox[{
+          SqrtBox[
+           RowBox[{"-", "g"}]], 
+          RowBox[{
+           SubscriptBox["\[Del]", "e"], 
+           RowBox[{"(", 
+            RowBox[{
+             SuperscriptBox["g", "ba"], 
+             SubscriptBox["\[Delta]g", "ba"], 
+             RowBox[{
+              SuperscriptBox["\[Del]", "e"], 
+              RowBox[{"F", "[", "R", "]"}]}]}], ")"}]}]}], "-", 
+         RowBox[{
+          SqrtBox[
+           RowBox[{"-", "g"}]], 
+          SuperscriptBox["g", "ab"], 
+          RowBox[{
+           SubscriptBox["\[Del]", "e"], 
+           RowBox[{"(", 
+            RowBox[{
+             SuperscriptBox["\[Del]", "e"], "F"}], ")"}]}], 
+          SubscriptBox["\[Delta]g", "ab"]}], "-", 
+         RowBox[{
+          SqrtBox[
+           RowBox[{"-", "g"}]], 
+          RowBox[{
+           SubscriptBox["\[Del]", "e"], 
+           RowBox[{"(", 
+            SuperscriptBox["g", "ab"], ")"}]}], 
+          RowBox[{
+           SuperscriptBox["\[Del]", "e"], 
+           SubscriptBox["F\[Delta]g", "ab"]}]}]}], ")"}]}]}], " ", "+", 
+     RowBox[{"\[Integral]", 
+      RowBox[{
+       SuperscriptBox["d", "4"], 
+       RowBox[{"x", "(", 
+        RowBox[{
+         FractionBox["1", "2"], 
+         SuperscriptBox["T", "ab"], 
+         SqrtBox[
+          RowBox[{"-", "g"}]]}], ")"}]}]}]}]}]}], 
+  TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{{3.5470366610372343`*^9, 3.547036661086237*^9}, {
+   3.5470371418066893`*^9, 3.5470371635559335`*^9}, {3.547037237013135*^9, 
+   3.547037268807954*^9}, 3.5471354861876884`*^9, {3.547193921120819*^9, 
+   3.5471939238729763`*^9}},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell["\<\
+Drop the zero terms and we find out the field equaiton.\
+\>", "Text",
+ CellChangeTimes->{{3.54703735214072*^9, 3.547037356966996*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"F", "[", "R", "]"}], 
+     SubscriptBox["R", "ab"]}], "-", 
+    RowBox[{
+     FractionBox["1", "2"], 
+     RowBox[{"f", "[", "R", "]"}], 
+     SubscriptBox["g", "ab"]}], "-", 
+    RowBox[{
+     SubscriptBox["\[Del]", "a"], 
+     RowBox[{
+      SubscriptBox["\[Del]", "b"], 
+      RowBox[{"F", "[", "R", "]"}]}]}], "+", 
+    RowBox[{
+     SubscriptBox["g", "ab"], 
+     RowBox[{"\[Square]", 
+      RowBox[{"F", "[", "R", "]"}]}]}]}], "=", 
+   RowBox[{
+    SuperscriptBox["\[Kappa]", "2"], 
+    SubscriptBox["T", "ab"]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.5470373584820824`*^9, 3.547037408481942*^9}, {
+  3.5470375939585514`*^9, 3.5470376096634493`*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell["\<\
+We can find the trace of this equation because this is not a good equation to \
+use.\
+\>", "Text",
+ CellChangeTimes->{{3.5471171228883677`*^9, 3.5471171447306175`*^9}}],
+
+Cell["\<\
+Most of the time the trace is more simple than the field equation since it is \
+a scalar equation. And the trace of this field equaiton is\
+\>", "Text",
+ CellChangeTimes->{{3.5471171459866886`*^9, 3.547117179518607*^9}, {
+  3.5471172170797553`*^9, 3.5471172274553485`*^9}}],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["g", "ab"], 
+     RowBox[{"F", "[", "R", "]"}], 
+     SubscriptBox["R", "ab"]}], "-", 
+    RowBox[{
+     FractionBox["1", "2"], 
+     RowBox[{"f", "[", "R", "]"}], 
+     SubscriptBox["g", "ab"], 
+     SuperscriptBox["g", "ab"]}], "-", 
+    RowBox[{
+     SuperscriptBox["g", "ab"], 
+     RowBox[{
+      SubscriptBox["\[Del]", "a"], 
+      RowBox[{
+       SubscriptBox["\[Del]", "b"], 
+       RowBox[{"F", "[", "R", "]"}]}]}]}], "+", 
+    RowBox[{
+     SuperscriptBox["g", "ab"], 
+     SubscriptBox["g", "ab"], 
+     RowBox[{"\[Square]", 
+      RowBox[{"F", "[", "R", "]"}]}]}]}], "\[AlignmentMarker]", "=", 
+   RowBox[{
+    SuperscriptBox["g", "ab"], 
+    SuperscriptBox["\[Kappa]", "2"], 
+    SubscriptBox["T", "ab"]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"F", "[", "R", "]"}], "R"}], "-", 
+    RowBox[{"2", 
+     RowBox[{"f", "[", "R", "]"}]}], "+", 
+    RowBox[{"3", 
+     RowBox[{"\[Square]", 
+      RowBox[{"F", "[", "R", "]"}]}]}]}], "\[AlignmentMarker]", "=", 
+   RowBox[{
+    SuperscriptBox["\[Kappa]", "2"], "T"}]}], 
+  TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{
+  3.547117230729536*^9, {3.5471175055672555`*^9, 3.5471175133096986`*^9}, {
+   3.547117556257155*^9, 3.5471176084361396`*^9}, {3.547117672172785*^9, 
+   3.5471178019572086`*^9}, 3.5471354793352966`*^9, {3.5471939060609574`*^9, 
+   3.547193910035185*^9}},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell["\<\
+Next is to consider the cosmological application.\
+\>", "Text",
+ CellChangeTimes->{{3.547117967967704*^9, 3.5471179826295424`*^9}, {
+  3.5471183318035135`*^9, 3.547118331806514*^9}}],
+
+Cell[TextData[{
+ StyleBox["FRW metric ",
+  FontWeight->"Bold"],
+ "is"
+}], "Text",
+ CellChangeTimes->{{3.547118335512726*^9, 3.5471183465263557`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SuperscriptBox["ds", "2"], "=", 
+   RowBox[{
+    RowBox[{"-", 
+     SuperscriptBox["dt", "2"]}], "+", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"a", "[", "t", "]"}], ")"}], "2"], 
+     SuperscriptBox[
+      StyleBox[
+       RowBox[{"d", 
+        StyleBox["x",
+         FontWeight->"Bold"]}]], "2"]}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.547118348255455*^9, 3.54711840954196*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell["To calculate the Ricci tensor.", "Text",
+ CellChangeTimes->{{3.547124694667449*^9, 3.5471246962905416`*^9}, {
+  3.547131243873042*^9, 3.54713132933793*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Begin", "[", "\"\<MyContext`\>\"", "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Quiet", "[", 
+   RowBox[{"<<", "COSPER`"}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"x", "=", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "x1", ",", "x2", ",", "x3"}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{"met", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1"}], ",", "0", ",", "0", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", 
+         RowBox[{
+          RowBox[{"a", "[", "t", "]"}], "*", 
+          RowBox[{"a", "[", "t", "]"}]}], ",", "0", ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", 
+         RowBox[{
+          RowBox[{"a", "[", "t", "]"}], "*", 
+          RowBox[{"a", "[", "t", "]"}]}], ",", "0"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "0", ",", "0", ",", 
+         RowBox[{
+          RowBox[{"a", "[", "t", "]"}], "*", 
+          RowBox[{"a", "[", "t", "]"}]}]}], "}"}]}], "}"}]}], ")"}], "//", 
+   "MatrixForm"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Ricci", "[", 
+  RowBox[{"met", ",", "x"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"SCurvature", "[", 
+  RowBox[{"met", ",", "x"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"End", "[", "]"}], ";"}]}], "Input",
+ CellChangeTimes->{{3.5471244891636944`*^9, 3.547124536444399*^9}, {
+  3.547124630436775*^9, 3.547124676170391*^9}, {3.5471247095563*^9, 
+  3.5471247111833935`*^9}, {3.5471247983273773`*^9, 3.547124800522503*^9}, {
+  3.5471317656108837`*^9, 3.5471317659219017`*^9}},
+ Background->RGBColor[1, 0.925, 0.925]],
+
+Cell[BoxData[
+ RowBox[{"Ricci", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "0", ",", "0", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", 
+       SuperscriptBox[
+        RowBox[{"a", "[", "t", "]"}], "2"], ",", "0", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", 
+       SuperscriptBox[
+        RowBox[{"a", "[", "t", "]"}], "2"], ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "0", ",", 
+       SuperscriptBox[
+        RowBox[{"a", "[", "t", "]"}], "2"]}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "x1", ",", "x2", ",", "x3"}], "}"}]}], "]"}]], "Output",
+ CellChangeTimes->{{3.547124529521003*^9, 3.5471245379874873`*^9}, {
+   3.547124664037697*^9, 3.547124676904433*^9}, {3.5471247127384825`*^9, 
+   3.5471247272393117`*^9}, {3.547124801966586*^9, 3.5471248063328357`*^9}, {
+   3.5471317669529605`*^9, 3.547131771026193*^9}, 3.5471951124729605`*^9},
+ Background->RGBColor[1, 0.925, 0.925]],
+
+Cell[BoxData[
+ RowBox[{"SCurvature", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "0", ",", "0", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", 
+       SuperscriptBox[
+        RowBox[{"a", "[", "t", "]"}], "2"], ",", "0", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", 
+       SuperscriptBox[
+        RowBox[{"a", "[", "t", "]"}], "2"], ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0", ",", "0", ",", 
+       SuperscriptBox[
+        RowBox[{"a", "[", "t", "]"}], "2"]}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "x1", ",", "x2", ",", "x3"}], "}"}]}], "]"}]], "Output",
+ CellChangeTimes->{{3.547124529521003*^9, 3.5471245379874873`*^9}, {
+   3.547124664037697*^9, 3.547124676904433*^9}, {3.5471247127384825`*^9, 
+   3.5471247272393117`*^9}, {3.547124801966586*^9, 3.5471248063328357`*^9}, {
+   3.5471317669529605`*^9, 3.547131771026193*^9}, 3.5471951124789605`*^9},
+ Background->RGBColor[1, 0.925, 0.925]]
+}, Open  ]],
+
+Cell["Then 00 component", "Text",
+ CellChangeTimes->{{3.5471257386941633`*^9, 3.547125744688506*^9}, {
+  3.547128230637695*^9, 3.5471282562411594`*^9}, {3.547130136795721*^9, 
+  3.547130187430617*^9}, {3.547130241093686*^9, 3.547130285593231*^9}, {
+  3.5471312304722757`*^9, 3.547131233616455*^9}, {3.5471313415306273`*^9, 
+  3.5471314457295876`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["R", "00"], "=", 
+   RowBox[{
+    RowBox[{"-", "3"}], 
+    RowBox[{"(", 
+     RowBox[{
+      OverscriptBox["H", "."], "+", 
+      SuperscriptBox["H", "2"]}], ")"}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{
+  3.5471302337012634`*^9, {3.5471302932696705`*^9, 3.5471303023691907`*^9}, {
+   3.547130366409854*^9, 3.547130366993887*^9}, {3.5471305036657047`*^9, 
+   3.5471305304352355`*^9}, {3.547130598771144*^9, 3.547130625871694*^9}, {
+   3.547131079728653*^9, 3.54713108334186*^9}, {3.5471312144393587`*^9, 
+   3.5471312144463587`*^9}, {3.547131502720847*^9, 3.5471315078541408`*^9}, 
+   3.5471319545806923`*^9, 3.5471377341212626`*^9},
+ TextAlignment->Left,
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["R", "11"], "=", 
+   RowBox[{
+    SubscriptBox["R", "22"], "=", 
+    RowBox[{
+     SubscriptBox["R", "33"], "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"2", 
+        SuperscriptBox["a", "2"], 
+        SuperscriptBox["H", "2"]}], "+", 
+       RowBox[{
+        SuperscriptBox["a", "2"], "(", 
+        RowBox[{
+         OverscriptBox["H", "."], "+", 
+         SuperscriptBox["H", "2"]}], ")"}]}], "=", 
+      RowBox[{
+       RowBox[{"3", 
+        SuperscriptBox["a", "2"], 
+        SuperscriptBox["H", "2"]}], "+", 
+       RowBox[{
+        SuperscriptBox["a", "2"], 
+        OverscriptBox["H", "."]}]}]}]}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.5471377353873353`*^9, 3.5471377459209375`*^9}, {
+  3.547137890604213*^9, 3.547137959889176*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"R", "=", 
+   RowBox[{"6", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"6", 
+       SuperscriptBox["H", "2"]}], "+", 
+      OverscriptBox["H", "."]}], ")"}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.5471319551557245`*^9, 3.5471319566678114`*^9}, {
+  3.54713222868937*^9, 3.5471322510856514`*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell["The energy momentum tensor is", "Text",
+ CellChangeTimes->{{3.547132865892816*^9, 3.5471328763254128`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubsuperscriptBox["T", 
+    RowBox[{"  ", "\[Nu]"}], "\[Mu]"], "=", 
+   RowBox[{"(", "\[NoBreak]", GridBox[{
+      {
+       RowBox[{"-", 
+        SubscriptBox["\[Rho]", "M"]}], "0", "0", "0"},
+      {"0", 
+       SubscriptBox["P", "M"], "0", "0"},
+      {"0", "0", 
+       SubscriptBox["P", "M"], "0"},
+      {"0", "0", "0", 
+       SubscriptBox["P", "M"]}
+     }], "\[NoBreak]", ")"}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.547133545303676*^9, 3.547133600022806*^9}, {
+  3.547191192116729*^9, 3.5471912235835285`*^9}, {3.5471912566564198`*^9, 
+  3.547191287381178*^9}, {3.5471913912571187`*^9, 3.5471915443098726`*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell["\<\
+Trace of energy momentum tensor\
+\>", "Text",
+ CellChangeTimes->{{3.54719181105713*^9, 3.5471918250659313`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"T", "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox[
+      SuperscriptBox["g", "\[Nu]"], "\[Mu]"], 
+     SubscriptBox[
+      SuperscriptBox["T", "\[Mu]"], "\[Nu]"]}], "=", 
+    RowBox[{
+     SubscriptBox["g", "\[Mu]\[Lambda]"], 
+     SuperscriptBox["g", "\[Lambda]\[Nu]"], 
+     SubscriptBox[
+      SuperscriptBox["T", "\[Mu]"], "\[Nu]"]}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.5471918269210377`*^9, 3.5471918320963335`*^9}, {
+   3.547191892110766*^9, 3.547192020413104*^9}, 3.547192055382105*^9},
+ TextAlignment->Left,
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell["\<\
+The 00 component of energy momentum tensor\
+\>", "Text",
+ CellChangeTimes->{{3.5471920903201027`*^9, 3.547192103708869*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["T", "00"], "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["g", 
+      RowBox[{"0", "\[Lambda]"}]], 
+     SubscriptBox[
+      SuperscriptBox["T", "\[Lambda]"], "0"]}], "=", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["g", "00"], 
+      SubscriptBox[
+       SuperscriptBox["T", "0"], "0"]}], "=", 
+     SubscriptBox["\[Rho]", "M"]}]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.547192105845991*^9, 3.5471921708937116`*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell["\<\
+The ii component of energy momentum tensor\
+\>", "Text",
+ CellChangeTimes->{{3.547192230694132*^9, 3.547192242303796*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox["T", "11"], "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["g", 
+      RowBox[{"1", "\[Lambda]"}]], 
+     SubscriptBox[
+      SuperscriptBox["T", "\[Lambda]"], "1"]}], "=", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["g", "11"], 
+      SubscriptBox[
+       SuperscriptBox["T", "1"], "1"]}], "=", 
+     RowBox[{
+      SuperscriptBox["a", "2"], 
+      SubscriptBox["P", "M"]}]}]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.547133735305544*^9, 3.547133748936323*^9}, {
+  3.547138330104351*^9, 3.547138359877054*^9}, {3.5471922244377737`*^9, 
+  3.547192282954121*^9}, {3.5471923355131273`*^9, 3.5471923823638067`*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell[TextData[{
+ "Some useful techniques (in FRW space and F only envoles ",
+ Cell[BoxData[
+  FormBox["R", TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "):"
+}], "Text",
+ CellChangeTimes->{{3.547193264044236*^9, 3.547193313191047*^9}}],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{"\[Square]", "F"}], "\[AlignmentMarker]", "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["\[PartialD]", "a"], 
+     RowBox[{
+      SuperscriptBox["\[PartialD]", "a"], "F"}]}], "+", 
+    RowBox[{
+     SubsuperscriptBox["\[CapitalGamma]", "ac", "a"], 
+     RowBox[{
+      SuperscriptBox["\[PartialD]", "c"], "F"}]}]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{"-", 
+      OverscriptBox["F", ".."]}], "-", 
+     RowBox[{"3", "H", 
+      OverscriptBox["F", "."]}]}]}]}], TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{{3.547193283534351*^9, 3.5471932912347913`*^9}, {
+   3.547193323771652*^9, 3.5471934083114877`*^9}, 3.547193441139365*^9, 
+   3.547193505335037*^9, {3.547193889298999*^9, 3.54719389334723*^9}},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Del]", "a"], 
+    RowBox[{
+     SubscriptBox["\[Del]", "b"], "F"}]}], "\[AlignmentMarker]", "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["\[PartialD]", "a"], 
+     RowBox[{
+      SubscriptBox["\[PartialD]", "b"], "F"}]}], "-", 
+    RowBox[{
+     SubsuperscriptBox["\[CapitalGamma]", "ab", "c"], 
+     RowBox[{
+      SubscriptBox["\[PartialD]", "c"], "F"}]}]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    OverscriptBox["F", ".."]}]}], TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{{3.547193508760233*^9, 3.5471935376868877`*^9}, {
+  3.547193673313645*^9, 3.547193721772417*^9}, {3.5471937752444754`*^9, 
+  3.5471938667637095`*^9}},
+ TextAlignment->AlignmentMarker],
+
+Cell["Put it into the two field equations", "Text",
+ CellChangeTimes->{{3.5471315480094376`*^9, 3.547131563985351*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"3", 
+       RowBox[{"\[Square]", "F"}]}], "+", 
+      RowBox[{"F", " ", "R"}], "-", 
+      RowBox[{"2", "f"}]}], "=", 
+     RowBox[{
+      SuperscriptBox["\[Kappa]", "2"], "T"}]}], "\n", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[DoubleLongRightArrow]", "\[AlignmentMarker]", "3"}], 
+       RowBox[{"\[Square]", "F"}]}], "+", 
+      RowBox[{"F", " ", "R"}], "-", 
+      RowBox[{"2", "f"}]}], "=", 
+     RowBox[{
+      SuperscriptBox["\[Kappa]", "2"], "(", 
+      RowBox[{
+       RowBox[{"-", 
+        SubscriptBox["\[Rho]", "M"]}], "+", 
+       RowBox[{"3", 
+        SubscriptBox["P", "M"]}]}], ")"}]}], "\n", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{
+       "\[DoubleLongRightArrow]", "\[AlignmentMarker]\[AlignmentMarker]", 
+        "3"}], 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", 
+          OverscriptBox["F", ".."]}], "-", 
+         RowBox[{"3", 
+          OverscriptBox["F", "."], "H"}]}], ")"}]}], "+", 
+      RowBox[{"F", " ", "R"}], " ", "-", 
+      RowBox[{"2", "f"}]}], "=", 
+     RowBox[{
+      SuperscriptBox["\[Kappa]", "2"], "(", 
+      RowBox[{
+       RowBox[{"-", 
+        SubscriptBox["\[Rho]", "M"]}], "+", 
+       RowBox[{"3", 
+        SubscriptBox["P", "M"]}]}], ")"}]}], "\n", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[DoubleLongRightArrow]", "\[AlignmentMarker]", 
+        RowBox[{"-", "3"}]}], 
+       OverscriptBox["F", ".."]}], "-", 
+      RowBox[{"9", 
+       OverscriptBox["F", "."], "H"}], "+", 
+      RowBox[{"F", " ", "R"}], "-", 
+      RowBox[{"2", "f"}]}], "=", 
+     RowBox[{
+      SuperscriptBox["\[Kappa]", "2"], "(", 
+      RowBox[{
+       RowBox[{"-", 
+        SubscriptBox["\[Rho]", "M"]}], "+", 
+       RowBox[{"3", 
+        SubscriptBox["P", "M"]}]}], ")"}]}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.547131565432434*^9, 3.5471316310891895`*^9}, {
+   3.54713226085821*^9, 3.547132295085168*^9}, 3.547135257795625*^9, {
+   3.5471930234274735`*^9, 3.5471930886062016`*^9}, 3.547193145421451*^9, {
+   3.5471940117500024`*^9, 3.5471940185773926`*^9}, {3.5471941231653748`*^9, 
+   3.547194214218583*^9}, 3.547194886373028*^9, {3.547194943811313*^9, 
+   3.5471949510537276`*^9}},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.88, 1, 0.88],
+ CellTags->"FieldEqnTrace"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"F", " ", 
+       SubscriptBox["R", "00"]}], "-", 
+      RowBox[{
+       FractionBox["1", "2"], "f", " ", 
+       SubscriptBox["g", "00"]}], "-", 
+      RowBox[{
+       SubscriptBox["\[Del]", "0"], 
+       RowBox[{
+        SubscriptBox["\[Del]", "0"], "F"}]}], "+", 
+      RowBox[{
+       SubscriptBox["g", "00"], 
+       RowBox[{"\[Square]", "F"}]}]}], "=", 
+     RowBox[{
+      SuperscriptBox["\[Kappa]", "2"], 
+      SubscriptBox["T", "00"]}]}], "\n", " ", 
+    RowBox[{
+     FormBox[
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"\[DoubleLongRightArrow]", "\[AlignmentMarker]", "F"}], " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"-", "3"}], 
+           RowBox[{"(", 
+            RowBox[{
+             OverscriptBox["H", "."], "+", 
+             SuperscriptBox["H", "2"]}], ")"}]}], ")"}]}], "+", 
+        RowBox[{
+         FractionBox["1", "2"], "f"}], "-", 
+        RowBox[{
+         SubscriptBox["\[Del]", "0"], 
+         RowBox[{
+          SubscriptBox["\[Del]", "0"], "F"}]}], "-", 
+        RowBox[{"\[Square]", "F"}]}], "="}],
+      TraditionalForm], 
+     SuperscriptBox["\[Kappa]", "2"], 
+     SubscriptBox["\[Rho]", "M"]}], "\n", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[DoubleLongRightArrow]", "\[AlignmentMarker]", 
+        RowBox[{"-", "3"}]}], "F", 
+       OverscriptBox["H", "."]}], "-", 
+      RowBox[{"3", "F", " ", 
+       SuperscriptBox["H", "2"]}], "+", 
+      RowBox[{
+       FractionBox["1", "2"], "f"}], "-", " ", 
+      OverscriptBox["F", ".."], "-", 
+      RowBox[{"\[Square]", "F"}]}], "=", 
+     RowBox[{
+      SuperscriptBox["\[Kappa]", "2"], 
+      SubscriptBox["\[Rho]", "M"]}]}], "\n", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[DoubleLongRightArrow]", "\[AlignmentMarker]", 
+        RowBox[{"-", "3"}]}], "F", " ", 
+       OverscriptBox["H", "."]}], "-", 
+      RowBox[{"3", "F", " ", 
+       SuperscriptBox["H", "2"]}], "+", 
+      RowBox[{
+       FractionBox["1", "2"], "f"}], "-", 
+      OverscriptBox["F", ".."], "+", 
+      OverscriptBox["F", ".."], "+", 
+      RowBox[{"3", "H", 
+       OverscriptBox["F", "."]}]}], "=", 
+     RowBox[{
+      SuperscriptBox["\[Kappa]", "2"], 
+      SubscriptBox["\[Rho]", "M"]}]}], "\n", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{
+       "\[DoubleLongRightArrow]", "\[AlignmentMarker]\[AlignmentMarker]", 
+        RowBox[{"-", "3"}]}], "F", " ", 
+       OverscriptBox["H", "."]}], "-", 
+      RowBox[{"3", "F", " ", 
+       SuperscriptBox["H", "2"]}], "+", 
+      RowBox[{
+       FractionBox["1", "2"], "f"}], "+", 
+      RowBox[{"3", "H", 
+       OverscriptBox["F", "."]}]}], "=", 
+     RowBox[{
+      SuperscriptBox["\[Kappa]", "2"], 
+      SubscriptBox["\[Rho]", "M"]}]}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{
+  3.547138403480548*^9, {3.547193211650239*^9, 3.5471932312313595`*^9}, {
+   3.5471940750666237`*^9, 3.547194080614941*^9}, {3.5471942205539455`*^9, 
+   3.547194246244415*^9}, {3.547194758814732*^9, 3.5471947734435687`*^9}, 
+   3.5471948791686163`*^9},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.87, 0.94, 1],
+ CellTags->"FieldEqn"],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"F", " ", 
+     SubscriptBox["R", "11"]}], "-", 
+    RowBox[{
+     FractionBox["1", "2"], "f", " ", 
+     SubscriptBox["g", "11"]}], "-", 
+    RowBox[{
+     SubscriptBox["\[Del]", "1"], 
+     RowBox[{
+      SubscriptBox["\[Del]", "1"], "F"}]}], "+", 
+    RowBox[{
+     SubscriptBox["g", "11"], 
+     RowBox[{"\[Square]", "F"}]}]}], "=", 
+   RowBox[{
+    SuperscriptBox["\[Kappa]", "2"], 
+    SubscriptBox["T", "11"]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"\[DoubleLongRightArrow]", "\[AlignmentMarker]", 
+     RowBox[{"F", "(", 
+      RowBox[{
+       RowBox[{"3", 
+        SuperscriptBox["a", "2"], 
+        SuperscriptBox["H", "2"]}], "+", 
+       RowBox[{
+        SuperscriptBox["a", "2"], 
+        OverscriptBox["H", "."]}]}], ")"}]}], "-", 
+    RowBox[{
+     FractionBox["1", "2"], "f", " ", 
+     SuperscriptBox["a", "2"]}], "-", 
+    RowBox[{
+     SubscriptBox["\[Del]", "1"], 
+     RowBox[{
+      SubscriptBox["\[Del]", "1"], "F"}]}], "+", 
+    RowBox[{
+     SuperscriptBox["a", "2"], 
+     RowBox[{"\[Square]", "F"}]}]}], "=", 
+   RowBox[{
+    SuperscriptBox["\[Kappa]", "2"], 
+    SuperscriptBox["a", "2"], 
+    SubscriptBox["P", "M"]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"\[DoubleLongRightArrow]", "\[AlignmentMarker]", "3"}], "F", " ", 
+     SuperscriptBox["a", "2"], 
+     SuperscriptBox["H", "2"]}], "+", 
+    RowBox[{
+     SuperscriptBox["a", "2"], "F", " ", 
+     OverscriptBox["H", "."]}], "-", 
+    RowBox[{
+     FractionBox["1", "2"], "f", " ", 
+     SuperscriptBox["a", "2"]}], "-", 
+    RowBox[{
+     SubscriptBox["\[Del]", "1"], 
+     RowBox[{
+      SubscriptBox["\[Del]", "1"], "F"}]}], "+", 
+    RowBox[{
+     SuperscriptBox["a", "2"], 
+     RowBox[{"\[Square]", "F"}]}]}], "=", 
+   RowBox[{
+    SuperscriptBox["\[Kappa]", "2"], 
+    SuperscriptBox["a", "2"], 
+    SubscriptBox["P", "M"]}]}], TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{{3.5471381974267626`*^9, 3.5471383191107225`*^9}, 
+   3.5471386098413515`*^9, {3.5471388658869963`*^9, 3.5471388704352565`*^9}, 
+   3.5471390324085207`*^9, {3.547193174017087*^9, 3.547193190078006*^9}, {
+   3.547194087618342*^9, 3.547194093550681*^9}, {3.547194251623722*^9, 
+   3.5471942672856183`*^9}, {3.5471943045997524`*^9, 3.547194307496918*^9}},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell[TextData[{
+ "Combine ",
+ ButtonBox["field equation (",
+  BaseStyle->"Hyperlink",
+  ButtonData->"FieldEqn"],
+ 
+ CounterBox["EquationNumbered", "FieldEqn"],
+ ") and ",
+ ButtonBox["its trace (",
+  BaseStyle->"Hyperlink",
+  ButtonData->"FieldEqnTrace"],
+ 
+ CounterBox["EquationNumbered", "FieldEqnTrace"],
+ ") above and we can find out two independent equations, because the trace of \
+the equation is actually get by taking the trace of the field equation."
+}], "Text",
+ CellChangeTimes->{{3.547137686135518*^9, 3.547137717256298*^9}, {
+  3.547194593594282*^9, 3.5471946366147428`*^9}, {3.547195039140766*^9, 
+  3.5471951643499274`*^9}, {3.5471955289427805`*^9, 3.547195599946842*^9}}],
+
+Cell[TextData[{
+ "Eqn",
+ 
+ CounterBox["EquationNumbered", "FieldEqn"],
+ " * 4 - Eqn",
+ 
+ CounterBox["EquationNumbered", "FieldEqnTrace"]
+}], "Text",
+ CellChangeTimes->{{3.547195605367152*^9, 3.5471956449544163`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"-", "2"}], "F", " ", 
+    OverscriptBox["H", "."]}], "=", 
+   RowBox[{
+    OverscriptBox["F", ".."], "-", 
+    RowBox[{"H", " ", 
+     OverscriptBox["F", "."]}], "+", 
+    RowBox[{
+     SuperscriptBox["\[Kappa]", "2"], "(", 
+     RowBox[{
+      SubscriptBox["\[Rho]", "M"], "+", 
+      SubscriptBox["P", "M"]}], ")"}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{
+  3.5471341006724415`*^9, {3.5471353625836186`*^9, 3.5471353625886188`*^9}, 
+   3.5471354075461903`*^9, {3.5471369686254787`*^9, 3.5471370438487816`*^9}, {
+   3.547137425779627*^9, 3.5471374331630487`*^9}, {3.5471374697501416`*^9, 
+   3.547137556369096*^9}, {3.5471375951053114`*^9, 3.5471376540276814`*^9}, {
+   3.547138187890217*^9, 3.5471381888792734`*^9}, {3.5471938800624704`*^9, 
+   3.54719388075651*^9}, {3.547194276247131*^9, 3.547194298868425*^9}, {
+   3.5471946634192758`*^9, 3.547194663442277*^9}, {3.5471947297730713`*^9, 
+   3.547194740685695*^9}, {3.5471956511967735`*^9, 3.547195704588827*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.87, 0.94, 1],
+ CellTags->"FieldEqn1"],
+
+Cell[TextData[{
+ "Rewrite Eqn",
+ 
+ CounterBox["EquationNumbered", "FieldEqn"],
+ " using the relation ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"R", "=", 
+    RowBox[{"6", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"6", 
+        SuperscriptBox["H", "2"]}], "+", 
+       OverscriptBox["H", "."]}], ")"}]}]}], TraditionalForm]]],
+ ","
+}], "Text",
+ CellChangeTimes->{{3.547195807165694*^9, 3.5471958578185916`*^9}, 
+   3.547196006347087*^9}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{"3", "F", " ", 
+    SuperscriptBox["H", "2"]}], "=", 
+   RowBox[{
+    RowBox[{
+     FractionBox["1", "2"], 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"F", " ", "R"}], "-", "f"}], ")"}]}], "-", 
+    RowBox[{"3", "H", " ", 
+     OverscriptBox["F", "."]}], "+", 
+    RowBox[{
+     SuperscriptBox["\[Kappa]", "2"], 
+     SubscriptBox["\[Rho]", "m"]}]}]}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.5471958682921906`*^9, 3.54719592457641*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.88, 1, 0.88],
+ CellTags->"FieldEqn2"],
+
+Cell[TextData[{
+ StyleBox["Most of the time we use equation (",
+  FontWeight->"Bold"],
+ StyleBox[
+ CounterBox["EquationNumbered", "FieldEqn1"],
+  FontWeight->"Bold"],
+ StyleBox[") and equation (",
+  FontWeight->"Bold"],
+ StyleBox[
+ CounterBox["EquationNumbered", "FieldEqn2"],
+  FontWeight->"Bold"],
+ StyleBox[") as the complete equation set to solve problem because this set \
+is quite simple.",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.5471353699250383`*^9, 3.547135383986843*^9}, {
+  3.5471960344946966`*^9, 3.547196041053072*^9}, {3.5471960836685095`*^9, 
+  3.5471960860156436`*^9}, {3.5471961786789436`*^9, 3.5471962329660487`*^9}, {
+  3.5471964377347608`*^9, 3.5471964447751637`*^9}}],
+
+Cell["\<\
+In Jordan frame, the conservation equation holds as the ordinary form which \
+is derived from Bianchi identity.\
+\>", "Text",
+ CellChangeTimes->{{3.5471962379273324`*^9, 3.5471962379283323`*^9}, {
+  3.5471962683680735`*^9, 3.5471962736053734`*^9}, {3.5471963165858316`*^9, 
+  3.547196335463911*^9}, {3.5472430599836564`*^9, 3.547243077952684*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox[
+    SuperscriptBox["T", "\[Mu]\[Nu]"], 
+    RowBox[{";", "\[Mu]"}]], "=", 
+   RowBox[{
+    SubscriptBox[
+     SuperscriptBox["G", "\[Mu]\[Nu]"], 
+     RowBox[{";", "\[Mu]"}]], "=", "0"}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.547196238160346*^9, 3.547196238161346*^9}, {
+  3.547196993319538*^9, 3.547197008466405*^9}, {3.5472431591623287`*^9, 
+  3.547243166325739*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell[TextData[{
+ "This divergence can be calculated directly from a explicity ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["T", "\[Mu]\[Nu]"], TraditionalForm]]],
+ ". However it is simpler to switch to ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox[
+    SuperscriptBox["T", "\[Mu]"], 
+    RowBox[{"\[Nu]", ";", "\[Mu]"}]], TraditionalForm]],
+  CellChangeTimes->{{3.547197011545581*^9, 3.5471970200560675`*^9}, {
+   3.547243108968458*^9, 3.547243271794771*^9}}],
+ " since we already defined ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox[
+    SuperscriptBox["T", "\[Mu]"], "\[Nu]"], TraditionalForm]]],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.5472432959621534`*^9, 3.547243397400955*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox[
+    SuperscriptBox["T", "\[Mu]"], 
+    RowBox[{"\[Nu]", ";", "\[Mu]"}]], "\[AlignmentMarker]", "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["\[PartialD]", "\[Mu]"], 
+     SubscriptBox[
+      SuperscriptBox["T", "\[Mu]"], "\[Nu]"]}], "+", 
+    RowBox[{
+     SubscriptBox[
+      SuperscriptBox["\[CapitalGamma]", "\[Mu]"], "\[Lambda]\[Mu]"], 
+     SubscriptBox[
+      SuperscriptBox["T", "\[Lambda]"], "\[Nu]"]}], "-", 
+    RowBox[{
+     SubscriptBox[
+      SuperscriptBox["\[CapitalGamma]", "\[Lambda]"], "\[Nu]\[Mu]"], 
+     SubscriptBox[
+      SuperscriptBox["T", "\[Mu]"], "\[Lambda]"], "\[AlignmentMarker]"}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.547243404717374*^9, 3.547243411198745*^9}, {
+   3.547243448730891*^9, 3.5472434707631516`*^9}, 3.547244310872203*^9, {
+   3.548233833100012*^9, 3.548233842634557*^9}},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   SubscriptBox[
+    SuperscriptBox["T", "\[Mu]"], 
+    RowBox[{"0", ";", "\[Mu]"}]], "\[AlignmentMarker]", "=", 
+   "\[AlignmentMarker]", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["\[PartialD]", "\[Mu]"], 
+     SubscriptBox[
+      SuperscriptBox["T", "\[Mu]"], "0"]}], "+", 
+    RowBox[{
+     SubscriptBox[
+      SuperscriptBox["\[CapitalGamma]", "\[Mu]"], "\[Lambda]\[Mu]"], 
+     SubscriptBox[
+      SuperscriptBox["T", "\[Lambda]"], "0"]}], "-", 
+    RowBox[{
+     SubscriptBox[
+      SuperscriptBox["\[CapitalGamma]", "\[Lambda]"], 
+      RowBox[{"0", "\[Mu]"}]], 
+     SubscriptBox[
+      SuperscriptBox["T", "\[Mu]"], "\[Lambda]"]}]}]}], 
+  TraditionalForm], "\[LineSeparator]", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["\[PartialD]", "\[Mu]"], 
+      SubscriptBox[
+       SuperscriptBox["T", "\[Mu]"], "0"]}], "+", 
+     RowBox[{
+      SubscriptBox[
+       SuperscriptBox["\[CapitalGamma]", "\[Mu]"], "\[Lambda]\[Mu]"], 
+      SubscriptBox[
+       SuperscriptBox["T", "\[Lambda]"], "0"]}], "-", 
+     RowBox[{
+      SubscriptBox[
+       SuperscriptBox["\[CapitalGamma]", "\[Lambda]"], 
+       RowBox[{"0", "\[Mu]"}]], 
+      SubscriptBox[
+       SuperscriptBox["T", "\[Mu]"], "\[Lambda]"]}]}]}]}], 
+  TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["\[PartialD]", "0"], 
+      SubscriptBox[
+       SuperscriptBox["T", "0"], "0"]}], "+", 
+     RowBox[{
+      SubscriptBox[
+       SuperscriptBox["\[CapitalGamma]", "\[Mu]"], 
+       RowBox[{"0", "\[Mu]"}]], 
+      SubscriptBox[
+       SuperscriptBox["T", "0"], "0"]}], "-", 
+     RowBox[{
+      SubscriptBox[
+       SuperscriptBox["\[CapitalGamma]", "\[Lambda]"], 
+       RowBox[{"0", "\[Mu]"}]], 
+      SubscriptBox[
+       SuperscriptBox["T", "\[Mu]"], "\[Lambda]"]}]}]}]}], 
+  TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{"-", 
+      OverscriptBox[
+       SubscriptBox["\[Rho]", "M"], "."]}], "-", 
+     RowBox[{"3", 
+      SubscriptBox[
+       SuperscriptBox["\[CapitalGamma]", "1"], "01"], 
+      SubscriptBox["\[Rho]", "M"]}], "-", 
+     RowBox[{"3", 
+      SubscriptBox[
+       SuperscriptBox["\[CapitalGamma]", "1"], "01"], 
+      SubscriptBox[
+       SuperscriptBox["T", "1"], "1"]}]}]}]}], TraditionalForm], "\n", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{"-", 
+      OverscriptBox[
+       SubscriptBox["\[Rho]", "M"], "."]}], "-", 
+     RowBox[{"3", "H", " ", 
+      SubscriptBox["\[Rho]", "M"]}], "-", 
+     RowBox[{"3", "H", " ", 
+      SubscriptBox["P", "M"]}]}]}]}], TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{{3.548233718749471*^9, 3.5482338366412144`*^9}},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{
+    SubscriptBox[
+     SuperscriptBox["T", "\[Mu]"], 
+     RowBox[{"i", ";", "\[Mu]"}]], "\[AlignmentMarker]", "=", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["\[PartialD]", "\[Mu]"], 
+      SubscriptBox[
+       SuperscriptBox["T", "\[Mu]"], "i"]}], "+", 
+     RowBox[{
+      SubscriptBox[
+       SuperscriptBox["\[CapitalGamma]", "\[Mu]"], "\[Lambda]\[Mu]"], 
+      SubscriptBox[
+       SuperscriptBox["T", "\[Lambda]"], "i"]}], "-", 
+     RowBox[{
+      SubscriptBox[
+       SuperscriptBox["\[CapitalGamma]", "\[Lambda]"], "i\[Mu]"], 
+      SubscriptBox[
+       SuperscriptBox["T", "\[Mu]"], "\[Lambda]"]}]}]}], 
+   "\[AlignmentMarker]"}], TraditionalForm], "\[LineSeparator]", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["\[PartialD]", "i"], 
+      SubscriptBox[
+       SuperscriptBox["T", "i"], "i"]}], "+", 
+     RowBox[{
+      SubscriptBox[
+       SuperscriptBox["\[CapitalGamma]", "\[Mu]"], "i\[Mu]"], 
+      SubscriptBox[
+       SuperscriptBox["T", "i"], "i"]}], "-", 
+     RowBox[{
+      SubscriptBox[
+       SuperscriptBox["\[CapitalGamma]", "\[Lambda]"], "i\[Mu]"], 
+      SubscriptBox[
+       SuperscriptBox["T", "\[Mu]"], "\[Lambda]"]}]}]}]}], 
+  TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{{3.5482338927304225`*^9, 3.5482340776559997`*^9}, {
+  3.5482346705009084`*^9, 3.5482346831526318`*^9}, {3.5482347540186853`*^9, 
+  3.548234754888735*^9}},
+ TextAlignment->AlignmentMarker,
+ Background->RGBColor[0.88, 1, 0.88]],
+
+Cell["Attention: i is not summed.", "Text",
+ CellChangeTimes->{{3.5482341713143563`*^9, 3.548234176670663*^9}, {
+  3.548234725502054*^9, 3.5482347285832305`*^9}}],
+
+Cell["\<\
+Thus the conservation equation with \[Nu]=0 finally reads\
+\>", "Text",
+ CellChangeTimes->{{3.547244341043929*^9, 3.5472443769549828`*^9}, {
+  3.548233278251276*^9, 3.5482332855526934`*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    OverscriptBox[
+     SubscriptBox["\[Rho]", "M"], "."], "+", 
+    RowBox[{"3", 
+     RowBox[{"H", "(", 
+      RowBox[{
+       SubscriptBox["\[Rho]", "M"], "+", 
+       SubscriptBox["P", "M"]}], ")"}]}]}], "=", "0"}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.547244358327917*^9, 3.547244362080132*^9}, {
+  3.5472444393495517`*^9, 3.5472444739285293`*^9}},
+ TextAlignment->Left,
+ Background->RGBColor[0.87, 0.94, 1]],
+
+Cell["", "Text"],
+
+Cell[TextData[{
+ StyleBox["Perturbation",
+  FontWeight->"Bold"],
+ ":"
+}], "Text",
+ CellChangeTimes->{{3.547117023707695*^9, 3.5471170282179527`*^9}, {
+  3.547117080113921*^9, 3.547117101211128*^9}}],
+
+Cell["", "Text"],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.5471372855746074`*^9, 3.5471372855776076`*^9}}],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.547137286371653*^9, 3.547137288484774*^9}}],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.547137288630782*^9, 3.5471372886337824`*^9}}],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.5471372887687902`*^9, 3.5471372887717905`*^9}}],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.5471372889127984`*^9, 3.5471372889147987`*^9}}],
+
+Cell["", "Text",
+ CellChangeTimes->{{3.5471372890528064`*^9, 3.547137289055806*^9}}],
+
+Cell["\<\
+By light green and light blue I mean equations. By light purple I mean input \
+and output.\
+\>", "Text",
+ CellChangeTimes->{{3.547137290705901*^9, 3.5471373914386625`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1008, 681},
+WindowMargins->{{-8, Automatic}, {Automatic, 0}},
+Magnification->1.25,
+FrontEndVersion->"8.0 for Microsoft Windows (32-bit) (November 7, 2010)",
+StyleDefinitions->FrontEnd`FileName[{"Article"}, "JournalArticle.nb", 
+  CharacterEncoding -> "CP936"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "FieldEqnTrace"->{
+  Cell[40460, 1314, 2425, 73, 149, "EquationNumbered",
+   CellTags->"FieldEqnTrace"]},
+ "FieldEqn"->{
+  Cell[42888, 1389, 3268, 100, 269, "EquationNumbered",
+   CellTags->"FieldEqn"]},
+ "FieldEqn1"->{
+  Cell[49517, 1598, 1138, 27, 62, "EquationNumbered",
+   CellTags->"FieldEqn1"]},
+ "FieldEqn2"->{
+  Cell[51103, 1646, 594, 19, 77, "EquationNumbered",
+   CellTags->"FieldEqn2"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"FieldEqnTrace", 61662, 1984},
+ {"FieldEqn", 61764, 1987},
+ {"FieldEqn1", 61863, 1990},
+ {"FieldEqn2", 61961, 1993}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 99, 1, 95, "Title"],
+Cell[681, 25, 132, 1, 36, "Subtitle"],
+Cell[816, 28, 92, 1, 53, "Author"],
+Cell[CellGroupData[{
+Cell[933, 33, 19, 0, 36, "Section"],
+Cell[CellGroupData[{
+Cell[977, 37, 255, 3, 59, "AbstractSection"],
+Cell[1235, 42, 184, 4, 28, "Abstract"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1468, 52, 96, 1, 62, "Section"],
+Cell[1567, 55, 546, 19, 57, "Text"],
+Cell[2116, 76, 173, 2, 30, "Text"],
+Cell[2292, 80, 792, 24, 80, "EquationNumbered"],
+Cell[3087, 106, 162, 3, 30, "Text"],
+Cell[CellGroupData[{
+Cell[3274, 113, 219, 3, 31, "Subsubsection"],
+Cell[3496, 118, 100, 1, 30, "Text"],
+Cell[3599, 121, 987, 24, 130, "EquationNumbered"],
+Cell[4589, 147, 1199, 34, 67, "Text"],
+Cell[5791, 183, 3305, 108, 313, "EquationNumbered"],
+Cell[9099, 293, 106, 1, 30, "Text"],
+Cell[9208, 296, 430, 11, 77, "EquationNumbered"],
+Cell[9641, 309, 1179, 38, 121, "EquationNumbered"],
+Cell[10823, 349, 7045, 247, 329, "EquationNumbered"],
+Cell[17871, 598, 245, 5, 30, "Text"],
+Cell[18119, 605, 387, 12, 40, "Equation"],
+Cell[18509, 619, 243, 4, 54, "Text"],
+Cell[18755, 625, 450, 16, 42, "Equation"],
+Cell[19208, 643, 257, 8, 32, "Text"],
+Cell[19468, 653, 455, 16, 44, "Equation"],
+Cell[19926, 671, 246, 8, 32, "Text"],
+Cell[20175, 681, 386, 13, 44, "Equation"],
+Cell[20564, 696, 131, 3, 30, "Text"],
+Cell[20698, 701, 233, 5, 30, "Text"],
+Cell[20934, 708, 482, 16, 80, "EquationNumbered"],
+Cell[21419, 726, 206, 4, 30, "Text"],
+Cell[21628, 732, 3161, 96, 180, "EquationNumbered"],
+Cell[24792, 830, 144, 3, 30, "Text"],
+Cell[24939, 835, 815, 26, 77, "EquationNumbered"],
+Cell[25757, 863, 178, 4, 30, "Text"],
+Cell[25938, 869, 283, 5, 30, "Text"],
+Cell[26224, 876, 1544, 48, 107, "EquationNumbered"],
+Cell[27771, 926, 192, 4, 30, "Text"],
+Cell[27966, 932, 149, 5, 30, "Text"],
+Cell[28118, 939, 537, 19, 62, "EquationNumbered"],
+Cell[28658, 960, 162, 2, 30, "Text"],
+Cell[CellGroupData[{
+Cell[28845, 966, 1739, 47, 249, "Input"],
+Cell[30587, 1015, 1063, 26, 92, "Output"],
+Cell[31653, 1043, 1068, 26, 92, "Output"]
+}, Open  ]],
+Cell[32736, 1072, 351, 5, 30, "Text"],
+Cell[33090, 1079, 771, 19, 63, "EquationNumbered"],
+Cell[33864, 1100, 886, 29, 63, "EquationNumbered"],
+Cell[34753, 1131, 420, 13, 63, "EquationNumbered"],
+Cell[35176, 1146, 113, 1, 30, "Text"],
+Cell[35292, 1149, 743, 20, 128, "EquationNumbered"],
+Cell[36038, 1171, 122, 3, 30, "Text"],
+Cell[36163, 1176, 624, 18, 62, "EquationNumbered"],
+Cell[36790, 1196, 134, 3, 30, "Text"],
+Cell[36927, 1201, 559, 18, 62, "EquationNumbered"],
+Cell[37489, 1221, 132, 3, 30, "Text"],
+Cell[37624, 1226, 752, 22, 62, "EquationNumbered"],
+Cell[38379, 1250, 243, 7, 30, "Text"],
+Cell[38625, 1259, 911, 25, 88, "EquationNumbered"],
+Cell[39539, 1286, 796, 23, 68, "EquationNumbered"],
+Cell[40338, 1311, 119, 1, 30, "Text"],
+Cell[40460, 1314, 2425, 73, 149, "EquationNumbered",
+ CellTags->"FieldEqnTrace"],
+Cell[42888, 1389, 3268, 100, 269, "EquationNumbered",
+ CellTags->"FieldEqn"],
+Cell[46159, 1491, 2446, 75, 173, "EquationNumbered"],
+Cell[48608, 1568, 687, 18, 54, "Text"],
+Cell[49298, 1588, 216, 8, 30, "Text"],
+Cell[49517, 1598, 1138, 27, 62, "EquationNumbered",
+ CellTags->"FieldEqn1"],
+Cell[50658, 1627, 442, 17, 36, "Text"],
+Cell[51103, 1646, 594, 19, 77, "EquationNumbered",
+ CellTags->"FieldEqn2"],
+Cell[51700, 1667, 705, 18, 54, "Text"],
+Cell[52408, 1687, 357, 6, 30, "Text"],
+Cell[52768, 1695, 509, 15, 62, "EquationNumbered"],
+Cell[53280, 1712, 684, 20, 56, "Text"],
+Cell[53967, 1734, 975, 26, 62, "EquationNumbered"],
+Cell[54945, 1762, 2915, 94, 167, "EquationNumbered"],
+Cell[57863, 1858, 1559, 46, 86, "EquationNumbered"],
+Cell[59425, 1906, 162, 2, 30, "Text"],
+Cell[59590, 1910, 200, 4, 30, "Text"],
+Cell[59793, 1916, 487, 15, 62, "EquationNumbered"],
+Cell[60283, 1933, 16, 0, 30, "Text"],
+Cell[60302, 1935, 198, 6, 30, "Text"],
+Cell[60503, 1943, 16, 0, 30, "Text"],
+Cell[60522, 1945, 86, 1, 30, "Text"],
+Cell[60611, 1948, 82, 1, 30, "Text"],
+Cell[60696, 1951, 84, 1, 30, "Text"],
+Cell[60783, 1954, 86, 1, 30, "Text"],
+Cell[60872, 1957, 86, 1, 30, "Text"],
+Cell[60961, 1960, 84, 1, 30, "Text"],
+Cell[61048, 1963, 182, 4, 30, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
