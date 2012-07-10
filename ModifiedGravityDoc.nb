@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    222565,       6947]
-NotebookOptionsPosition[    213338,       6713]
-NotebookOutlinePosition[    214291,       6748]
-CellTagsIndexPosition[    214124,       6740]
+NotebookDataLength[    223831,       6983]
+NotebookOptionsPosition[    214563,       6749]
+NotebookOutlinePosition[    215505,       6783]
+CellTagsIndexPosition[    215338,       6775]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5681,10 +5681,12 @@ Cell[BoxData[
 
 Cell[BoxData[
  FormBox[
-  RowBox[{
-   SubscriptBox["\[ScriptCapitalL]", 
-    RowBox[{"\[Phi]", ",", "\[Phi]"}]], "=", 
-   RowBox[{"V", "'"}]}], TraditionalForm]], "EquationNumbered",
+  StyleBox[
+   RowBox[{
+    SubscriptBox["\[ScriptCapitalL]", 
+     RowBox[{"\[Phi]", ",", "\[Phi]"}]], "=", 
+    RowBox[{"V", "'"}]}],
+   FontColor->RGBColor[1, 0, 0]], TraditionalForm]], "EquationNumbered",
  CellChangeTimes->{{3.5506338214472475`*^9, 3.5506338416164007`*^9}},
  Background->RGBColor[0.88, 1, 0.88]],
 
@@ -5793,61 +5795,19 @@ Cell[BoxData[{
  Background->RGBColor[1, 1, 0.85]],
 
 Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{
-    RowBox[{"-", "2"}], 
-    SubscriptBox["X\[ScriptCapitalL]", 
-     RowBox[{"\[Phi]", ",", "\[Phi]"}]]}],
-   FontColor->RGBColor[0.5, 0, 0.5]], "+", 
-  RowBox[{
-   SubscriptBox["\[Phi]", 
-    RowBox[{",", "\[Mu]"}]], 
-   SubscriptBox["\[ScriptCapitalL]", 
-    RowBox[{"\[Phi]", ",", "X"}]], 
-   RowBox[{
-    SubscriptBox["\[Del]", "\[Nu]"], 
-    RowBox[{"(", 
-     RowBox[{
-      SuperscriptBox["\[Phi]", 
-       RowBox[{",", "\[Mu]"}]], 
-      SuperscriptBox["\[Phi]", 
-       RowBox[{",", "\[Nu]"}]]}], ")"}]}]}], "+", 
-  RowBox[{
-   SubscriptBox["X\[ScriptCapitalL]", 
-    RowBox[{"\[Phi]", ",", "XX"}]], 
-   SuperscriptBox["\[Phi]", 
-    RowBox[{",", "\[Nu]"}]], 
-   SuperscriptBox["g", "\[Alpha]\[Beta]"], 
-   RowBox[{
-    SubscriptBox["\[Del]", "\[Nu]"], 
-    RowBox[{"(", 
-     RowBox[{
-      SubscriptBox["\[Phi]", 
-       RowBox[{",", "\[Alpha]"}]], 
-      SubscriptBox["\[Phi]", 
-       RowBox[{",", "\[Beta]"}]]}], ")"}]}]}], 
-  StyleBox["+",
-   FontColor->RGBColor[0.5, 0, 0.5]], 
-  StyleBox[
-   RowBox[{"4", 
-    SubscriptBox["XX\[ScriptCapitalL]", 
-     RowBox[{"\[Phi]", ",", "X\[Phi]"}]]}],
-   FontColor->RGBColor[0.5, 0, 0.5]]}]], "Text",
- CellChangeTimes->{3.5507138458552527`*^9}],
-
-Cell[BoxData[
  FormBox[
-  RowBox[{"\[ScriptCapitalV]", "\[AlignmentMarker]", "=", 
-   RowBox[{
+  StyleBox[
+   RowBox[{"\[ScriptCapitalV]", "\[AlignmentMarker]", "=", 
     RowBox[{
-     RowBox[{"2", "X", " ", 
+     RowBox[{
+      RowBox[{"2", "X", " ", 
+       SubscriptBox["\[ScriptCapitalL]", 
+        RowBox[{"\[Phi]", ",", "X\[Phi]"}]]}], "-", 
       SubscriptBox["\[ScriptCapitalL]", 
-       RowBox[{"\[Phi]", ",", "X\[Phi]"}]]}], "-", 
-     SubscriptBox["\[ScriptCapitalL]", 
-      RowBox[{"\[Phi]", ",", "\[Phi]"}]]}], "=", 
-    RowBox[{"-", 
-     RowBox[{"V", "'"}]}]}]}], TraditionalForm]], "EquationNumbered",
+       RowBox[{"\[Phi]", ",", "\[Phi]"}]]}], "=", 
+     RowBox[{"-", 
+      RowBox[{"V", "'"}]}]}]}],
+   FontColor->RGBColor[1, 0, 0]], TraditionalForm]], "EquationNumbered",
  CellChangeTimes->{{3.550634853404272*^9, 3.5506348603556695`*^9}, {
   3.550634893606571*^9, 3.550634985997856*^9}, {3.550713851089552*^9, 
   3.55071387133471*^9}},
@@ -5929,100 +5889,112 @@ Cell[BoxData[
     RowBox[{
      RowBox[{
       RowBox[{
-       RowBox[{
-        StyleBox["\[DoubleLongRightArrow]",
-         FontColor->GrayLevel[0]], 
-        StyleBox["\[AlignmentMarker]",
-         FontColor->GrayLevel[0]], 
+       StyleBox["\[DoubleLongRightArrow]",
+        FontColor->GrayLevel[0]], 
+       StyleBox["\[AlignmentMarker]",
+        FontColor->GrayLevel[0]], 
+       StyleBox[
         RowBox[{
-         StyleBox["(",
-          FontColor->GrayLevel[0]], 
          RowBox[{
-          FractionBox["D", 
-           RowBox[{"C", "-", 
-            RowBox[{"2", "X", " ", "D"}]}]], "\[Rho]"}], 
-         StyleBox[")",
-          FontColor->GrayLevel[0]]}]}], 
-       RowBox[{
-        SubscriptBox[
-         StyleBox["\[Del]",
-          FontColor->GrayLevel[0]], "0"], 
-        SubscriptBox["\[Phi]", 
-         RowBox[{",", "0"}]]}]}], "-", 
-      RowBox[{
-       SuperscriptBox["g", "\[Mu]\[Nu]"], 
-       RowBox[{
-        SubscriptBox["\[Del]", "\[Mu]"], 
-        RowBox[{
-         SubscriptBox["\[Del]", "\[Nu]"], "\[Phi]"}]}]}], "-", 
-      RowBox[{"V", "'"}], "-", 
-      RowBox[{
-       FractionBox[
-        StyleBox["C",
-         FontWeight->"Plain"], 
-        RowBox[{"C", "-", 
-         RowBox[{"2", "X", " ", "D"}]}]], 
-       RowBox[{"\[Rho]", "(", 
-        RowBox[{
-         RowBox[{"-", 
-          StyleBox[
-           FractionBox[
-            RowBox[{"C", "'"}], 
-            RowBox[{"2", "C"}]],
+          StyleBox["(",
+           FontColor->GrayLevel[0]], 
+          RowBox[{
+           FractionBox["D", 
+            RowBox[{"C", "-", 
+             RowBox[{"2", "X", " ", "D"}]}]], "\[Rho]"}], 
+          StyleBox[")",
            FontColor->GrayLevel[0]]}], 
-         StyleBox["+",
-          FontColor->GrayLevel[0]], 
          RowBox[{
-          StyleBox[
-           FractionBox[
-            RowBox[{
-             RowBox[{"C", "'"}], "D"}], 
-            SuperscriptBox["C", "2"]],
-           FontColor->GrayLevel[0]], 
-          SuperscriptBox[
-           OverscriptBox["\[Phi]", "."], "2"]}], 
-         StyleBox["-",
-          FontColor->GrayLevel[0]], 
-         RowBox[{
-          StyleBox[
-           FractionBox[
-            RowBox[{"D", "'"}], 
-            RowBox[{"2", "C"}]],
-           FontColor->GrayLevel[0]], 
-          SuperscriptBox[
-           OverscriptBox["\[Phi]", "."], "2"]}]}], ")"}]}]}], "=", "0"}], 
-    "\[LineSeparator]", 
-    RowBox[{
-     RowBox[{
-      RowBox[{
-       RowBox[{"\[DoubleLongRightArrow]", "\[AlignmentMarker]", 
-        RowBox[{
-         StyleBox["(",
-          FontColor->GrayLevel[0]], 
-         RowBox[{
-          FractionBox["D", 
-           RowBox[{"C", "-", 
-            RowBox[{"2", "X", " ", "D"}]}]], "\[Rho]"}], 
-         StyleBox[")",
-          FontColor->GrayLevel[0]]}]}], 
-       RowBox[{"(", 
-        RowBox[{
-         OverscriptBox["\[Phi]", ".."], "-", 
-         RowBox[{
-          SubsuperscriptBox["\[CapitalGamma]", "00", "0"], 
+          SubscriptBox[
+           StyleBox["\[Del]",
+            FontColor->GrayLevel[0]], "0"], 
           SubscriptBox["\[Phi]", 
-           RowBox[{",", "0"}]]}]}], ")"}]}], "-", 
-      RowBox[{
-       SuperscriptBox["g", "\[Mu]\[Nu]"], "(", 
+           RowBox[{",", "0"}]]}]}],
+        FontColor->RGBColor[1, 0, 0]]}], 
+      StyleBox["-",
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox[
        RowBox[{
+        SuperscriptBox["g", "\[Mu]\[Nu]"], 
         RowBox[{
-         SubscriptBox["\[PartialD]", "\[Mu]"], 
-         SubscriptBox["\[Phi]", 
-          RowBox[{",", "\[Nu]"}]]}], "-", 
+         SubscriptBox["\[Del]", "\[Mu]"], 
+         RowBox[{
+          SubscriptBox["\[Del]", "\[Nu]"], "\[Phi]"}]}]}],
+       FontColor->RGBColor[1, 0, 0]], "-", 
+      RowBox[{"V", "'"}], "-", 
+      RowBox[{
+       FractionBox[
+        StyleBox["C",
+         FontWeight->"Plain"], 
+        RowBox[{"C", "-", 
+         RowBox[{"2", "X", " ", "D"}]}]], 
+       RowBox[{"\[Rho]", "(", 
         RowBox[{
-         SubsuperscriptBox["\[CapitalGamma]", "\[Mu]\[Nu]", "\[Lambda]"], 
-         SubscriptBox["\[Phi]", 
-          RowBox[{",", "\[Lambda]"}]]}]}], ")"}], "-", 
+         RowBox[{"-", 
+          StyleBox[
+           FractionBox[
+            RowBox[{"C", "'"}], 
+            RowBox[{"2", "C"}]],
+           FontColor->GrayLevel[0]]}], 
+         StyleBox["+",
+          FontColor->GrayLevel[0]], 
+         RowBox[{
+          StyleBox[
+           FractionBox[
+            RowBox[{
+             RowBox[{"C", "'"}], "D"}], 
+            SuperscriptBox["C", "2"]],
+           FontColor->GrayLevel[0]], 
+          SuperscriptBox[
+           OverscriptBox["\[Phi]", "."], "2"]}], 
+         StyleBox["-",
+          FontColor->GrayLevel[0]], 
+         RowBox[{
+          StyleBox[
+           FractionBox[
+            RowBox[{"D", "'"}], 
+            RowBox[{"2", "C"}]],
+           FontColor->GrayLevel[0]], 
+          SuperscriptBox[
+           OverscriptBox["\[Phi]", "."], "2"]}]}], ")"}]}]}], "=", "0"}], 
+    "\[LineSeparator]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"\[DoubleLongRightArrow]", "\[AlignmentMarker]", 
+       StyleBox[
+        RowBox[{
+         RowBox[{
+          StyleBox["(",
+           FontColor->GrayLevel[0]], 
+          RowBox[{
+           FractionBox["D", 
+            RowBox[{"C", "-", 
+             RowBox[{"2", "X", " ", "D"}]}]], "\[Rho]"}], 
+          StyleBox[")",
+           FontColor->GrayLevel[0]]}], 
+         RowBox[{"(", 
+          RowBox[{
+           OverscriptBox["\[Phi]", ".."], "-", 
+           RowBox[{
+            SubsuperscriptBox["\[CapitalGamma]", "00", "0"], 
+            SubscriptBox["\[Phi]", 
+             RowBox[{",", "0"}]]}]}], ")"}]}],
+        FontColor->RGBColor[1, 0, 0]]}], 
+      StyleBox["-",
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox[
+       RowBox[{
+        SuperscriptBox["g", "\[Mu]\[Nu]"], "(", 
+        RowBox[{
+         RowBox[{
+          SubscriptBox["\[PartialD]", "\[Mu]"], 
+          SubscriptBox["\[Phi]", 
+           RowBox[{",", "\[Nu]"}]]}], "-", 
+         RowBox[{
+          SubsuperscriptBox["\[CapitalGamma]", "\[Mu]\[Nu]", "\[Lambda]"], 
+          SubscriptBox["\[Phi]", 
+           RowBox[{",", "\[Lambda]"}]]}]}], ")"}],
+       FontColor->RGBColor[1, 0, 0]], "-", 
       RowBox[{"V", "'"}], "-", 
       RowBox[{
        FractionBox[
@@ -6063,24 +6035,30 @@ Cell[BoxData[
     RowBox[{
      RowBox[{
       RowBox[{
-       RowBox[{
-       "\[DoubleLongRightArrow]", "\[AlignmentMarker]\[AlignmentMarker]", 
+      "\[DoubleLongRightArrow]", "\[AlignmentMarker]\[AlignmentMarker]", 
+       StyleBox[
         RowBox[{
-         StyleBox["(",
-          FontColor->GrayLevel[0]], 
-         FractionBox[
-          RowBox[{"C", "-", 
-           RowBox[{"2", "X", " ", "D"}], "+", 
-           RowBox[{"D", " ", "\[Rho]"}]}], 
-          RowBox[{"C", "-", 
-           RowBox[{"2", "X", " ", "D"}]}]], 
-         StyleBox[")",
-          FontColor->GrayLevel[0]]}]}], 
-       OverscriptBox["\[Phi]", ".."]}], "-", 
-      RowBox[{
-       SuperscriptBox["g", "ij"], 
-       SubsuperscriptBox["\[CapitalGamma]", "ij", "0"], 
-       OverscriptBox["\[Phi]", "."]}], "-", 
+         RowBox[{
+          StyleBox["(",
+           FontColor->GrayLevel[0]], 
+          FractionBox[
+           RowBox[{"C", "-", 
+            RowBox[{"2", "X", " ", "D"}], "+", 
+            RowBox[{"D", " ", "\[Rho]"}]}], 
+           RowBox[{"C", "-", 
+            RowBox[{"2", "X", " ", "D"}]}]], 
+          StyleBox[")",
+           FontColor->GrayLevel[0]]}], 
+         OverscriptBox["\[Phi]", ".."]}],
+        FontColor->RGBColor[1, 0, 0]]}], 
+      StyleBox["-",
+       FontColor->RGBColor[1, 0, 0]], 
+      StyleBox[
+       RowBox[{
+        SuperscriptBox["g", "ij"], 
+        SubsuperscriptBox["\[CapitalGamma]", "ij", "0"], 
+        OverscriptBox["\[Phi]", "."]}],
+       FontColor->RGBColor[1, 0, 0]], "-", 
       RowBox[{"V", "'"}], "-", 
       RowBox[{
        FractionBox[
@@ -6230,7 +6208,7 @@ Cell[BoxData[
        "\[AlignmentMarker]\[AlignmentMarker]\[AlignmentMarker]", 
        OverscriptBox["\[Phi]", ".."]}], "+", 
       RowBox[{"3", "H", 
-       OverscriptBox["\[Phi]", "."]}], "+", 
+       OverscriptBox["\[Phi]", "."]}], "-", 
       RowBox[{"V", "'"}]}], "=", 
      RowBox[{
       RowBox[{"3", "H", 
@@ -6242,7 +6220,7 @@ Cell[BoxData[
         RowBox[{"C", "-", 
          RowBox[{"2", "X", " ", "D"}], "+", 
          RowBox[{"D", " ", "\[Rho]"}]}]], "3", "H", 
-       OverscriptBox["\[Phi]", "."]}], "+", 
+       OverscriptBox["\[Phi]", "."]}], "-", 
       RowBox[{"V", "'"}], "+", 
       RowBox[{
        FractionBox[
@@ -6284,7 +6262,7 @@ Cell[BoxData[
       RowBox[{"\[DoubleLongRightArrow]", "\[AlignmentMarker]", 
        OverscriptBox["\[Phi]", ".."]}], "+", 
       RowBox[{"3", "H", 
-       OverscriptBox["\[Phi]", "."]}], "+", 
+       OverscriptBox["\[Phi]", "."]}], "-", 
       RowBox[{"V", "'"}]}], "=", 
      RowBox[{
       FractionBox[
@@ -6304,7 +6282,7 @@ Cell[BoxData[
         RowBox[{"C", "-", 
          RowBox[{"2", "X", " ", "D"}], "+", 
          RowBox[{"D", " ", "\[Rho]"}]}]], "3", "H", 
-       OverscriptBox["\[Phi]", "."]}], "+", 
+       OverscriptBox["\[Phi]", "."]}], "-", 
       FractionBox[
        RowBox[{
         RowBox[{"V", "'"}], 
@@ -6356,7 +6334,7 @@ Cell[BoxData[
       RowBox[{"\[DoubleLongRightArrow]", "\[AlignmentMarker]", 
        OverscriptBox["\[Phi]", ".."]}], "+", 
       RowBox[{"3", "H", 
-       OverscriptBox["\[Phi]", "."]}], "+", 
+       OverscriptBox["\[Phi]", "."]}], "-", 
       RowBox[{"V", "'"}]}], "=", 
      RowBox[{
       FractionBox[
@@ -6364,23 +6342,10 @@ Cell[BoxData[
         OverscriptBox["\[Phi]", "."], "D", " ", "\[Rho]"}], 
        RowBox[{"C", "-", 
         RowBox[{"2", "X", " ", "D"}], "+", 
-        RowBox[{"D", " ", "\[Rho]"}]}]], "+", 
+        RowBox[{"D", " ", "\[Rho]"}]}]], "-", 
       FractionBox[
        RowBox[{
-        RowBox[{"V", "'"}], 
-        RowBox[{"(", 
-         RowBox[{"C", "-", 
-          RowBox[{"2", "X", " ", "D"}], "+", 
-          RowBox[{"D", " ", "\[Rho]"}]}], ")"}]}], 
-       RowBox[{"C", "-", 
-        RowBox[{"2", "X", " ", "D"}], "+", 
-        RowBox[{"D", " ", "\[Rho]"}]}]], "+", 
-      FractionBox[
-       RowBox[{
-        RowBox[{"(", 
-         RowBox[{"C", "-", 
-          RowBox[{"2", "X", " ", "D"}]}], ")"}], 
-        RowBox[{"V", "'"}]}], 
+        RowBox[{"V", "'"}], "D", " ", "\[Rho]"}], 
        RowBox[{"C", "-", 
         RowBox[{"2", "X", " ", "D"}], "+", 
         RowBox[{"D", " ", "\[Rho]"}]}]], "-", 
@@ -6410,7 +6375,39 @@ Cell[BoxData[
            RowBox[{"D", "'"}], "2"]}],
          FontColor->GrayLevel[0]], ")"}], 
        SuperscriptBox[
-        OverscriptBox["\[Phi]", "."], "2"]}]}]}]}]}], 
+        OverscriptBox["\[Phi]", "."], "2"]}]}]}], "\[LineSeparator]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"\[DoubleLongRightArrow]", "\[AlignmentMarker]", 
+       OverscriptBox["\[Phi]", ".."]}], "+", 
+      RowBox[{"3", "H", 
+       OverscriptBox["\[Phi]", "."]}], "-", 
+      RowBox[{"V", "'"}]}], "=", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"3", "H", 
+         OverscriptBox["\[Phi]", "."], "D"}], "-", 
+        RowBox[{
+         RowBox[{"V", "'"}], "D"}], " ", "-", 
+        FractionBox[
+         RowBox[{" ", 
+          RowBox[{"C", "'"}]}], "2"], "+", " ", 
+        RowBox[{
+         SuperscriptBox[
+          OverscriptBox["\[Phi]", "."], "2"], "(", 
+         StyleBox[
+          RowBox[{
+           FractionBox[
+            RowBox[{
+             RowBox[{"C", "'"}], "D"}], "C"], "-", 
+           FractionBox[
+            RowBox[{"D", "'"}], "2"]}],
+          FontColor->GrayLevel[0]], ")"}]}], ")"}], 
+      FractionBox["\[Rho]", 
+       RowBox[{"C", "-", 
+        RowBox[{"2", "X", " ", "D"}], "+", 
+        RowBox[{"D", " ", "\[Rho]"}]}]]}]}]}]}], 
   TraditionalForm]], "EquationNumbered",
  CellChangeTimes->{{3.550635751046614*^9, 3.5506357722098246`*^9}, {
    3.5506358939367867`*^9, 3.5506359571504025`*^9}, {3.5506360298745623`*^9, 
@@ -6418,7 +6415,9 @@ Cell[BoxData[
    3.5506366940595512`*^9, 3.550636975005621*^9, {3.550637115984684*^9, 
    3.5506371232841015`*^9}, {3.5506371637954187`*^9, 3.550637169433741*^9}, {
    3.5507147382762966`*^9, 3.5507147504179907`*^9}, {3.5507150272666807`*^9, 
-   3.55071503843832*^9}},
+   3.55071503843832*^9}, {3.5508966205853853`*^9, 3.5508966835019836`*^9}, {
+   3.5508972178975496`*^9, 3.550897252211512*^9}, {3.5508972867054853`*^9, 
+   3.5508973166301966`*^9}},
  TextAlignment->AlignmentMarker,
  Background->RGBColor[1, 1, 0.85]],
 
@@ -6426,17 +6425,60 @@ Cell["", "Text",
  CellFrame->{{0, 0}, {0.5, 0}}],
 
 Cell[TextData[{
- "ONLY PROBLEM V\[CloseCurlyQuote], if we have a different sign in front of V\
+ "For a quintessence model, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"-", 
+     SubscriptBox["\[ScriptCapitalL]", "\[Phi]"]}], "=", 
+    RowBox[{
+     RowBox[{
+      FractionBox["1", "2"], 
+      SubscriptBox["\[Phi]", 
+       RowBox[{",", "\[Mu]"}]], 
+      SuperscriptBox["\[Phi]", 
+       RowBox[{",", "\[Mu]"}]]}], "+", "V"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " gives the result"
+}], "Text"],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   RowBox[{
+    OverscriptBox["\[Phi]", ".."], "+", 
+    RowBox[{"3", "H", " ", 
+     OverscriptBox["\[Phi]", "."]}], "+", 
+    RowBox[{"V", "'"}]}], "=", "0"}], TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{{3.550750622716757*^9, 3.5507506437609606`*^9}}],
+
+Cell[TextData[{
+ "So it is better to use the form ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[ScriptCapitalL]", "\[Phi]"], "=", 
+    RowBox[{"X", "-", "V"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " here."
+}], "Text",
+ CellChangeTimes->{{3.55075070844066*^9, 3.5507507463188267`*^9}}],
+
+Cell[TextData[{
+ "ONLY PROBLEM V\[CloseCurlyQuote]! If we have a different sign in front of V\
 \[CloseCurlyQuote], or if we have ",
  Cell[BoxData[
   FormBox[
    RowBox[{
     SubscriptBox["\[ScriptCapitalL]", "\[Phi]"], "=", 
-    RowBox[{"X", "-", "V"}]}], TraditionalForm]]]
+    RowBox[{"X", "-", "V"}]}], TraditionalForm]]],
+ ". "
 }], "Text",
  CellChangeTimes->{{3.5506372705785265`*^9, 3.550637306989609*^9}, {
    3.550637373363405*^9, 3.550637477907385*^9}, {3.5507150575674143`*^9, 
-   3.5507150636717634`*^9}, 3.5507156309053397`*^9}],
+   3.5507150636717634`*^9}, 3.5507156309053397`*^9, {3.55075052153797*^9, 
+   3.5507505892078404`*^9}, {3.5507506701734715`*^9, 3.550750705595497*^9}, {
+   3.550750755626359*^9, 3.5507507597915974`*^9}}],
 
 Cell[BoxData[{
  FormBox[
@@ -6699,13 +6741,7 @@ Cell[BoxData[
   TraditionalForm]], "EquationNumbered",
  CellChangeTimes->{{3.5506378505506988`*^9, 3.5506378667296247`*^9}, {
   3.550699445624607*^9, 3.550699446426653*^9}},
- Background->RGBColor[1, 1, 0.85]],
-
-Cell["\<\
-WTF!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\
-\>", "Text",
- CellChangeTimes->{{3.5506379002125397`*^9, 3.5506379097740865`*^9}, {
-  3.550699459879422*^9, 3.550699463796646*^9}}]
+ Background->RGBColor[1, 1, 0.85]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -6713,8 +6749,7 @@ WTF!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\
 },
 WindowSize->{1008, 681},
 WindowMargins->{{-8, Automatic}, {Automatic, 0}},
-FrontEndVersion->"8.0 for Microsoft Windows (32-bit) (2011\:5e7410\:670824\
-\:65e5)",
+FrontEndVersion->"8.0 for Microsoft Windows (32-bit) (February 23, 2011)",
 StyleDefinitions->FrontEnd`FileName[{"Article"}, "JournalArticle.nb", 
   CharacterEncoding -> "CP936"]
 ]
@@ -6723,12 +6758,12 @@ StyleDefinitions->FrontEnd`FileName[{"Article"}, "JournalArticle.nb",
 (* Internal cache information *)
 (*CellTagsOutline
 CellTagsIndex->{
- "FieldEqnTrace"->{
-  Cell[40882, 1322, 2425, 73, 149, "EquationNumbered",
-   CellTags->"FieldEqnTrace"]},
  "FieldEqn"->{
   Cell[43310, 1397, 3268, 100, 269, "EquationNumbered",
    CellTags->"FieldEqn"]},
+ "FieldEqnTrace"->{
+  Cell[40882, 1322, 2425, 73, 149, "EquationNumbered",
+   CellTags->"FieldEqnTrace"]},
  "FieldEqn1"->{
   Cell[49939, 1606, 1138, 27, 61, "EquationNumbered",
    CellTags->"FieldEqn1"]},
@@ -6739,10 +6774,10 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"FieldEqnTrace", 213721, 6725},
- {"FieldEqn", 213823, 6728},
- {"FieldEqn1", 213922, 6731},
- {"FieldEqn2", 214020, 6734}
+ {"FieldEqn", 214930, 6760},
+ {"FieldEqnTrace", 215033, 6763},
+ {"FieldEqn1", 215136, 6766},
+ {"FieldEqn2", 215234, 6769}
  }
 *)
 (*NotebookFileOutline
@@ -6926,25 +6961,26 @@ Cell[166940, 5265, 13146, 371, 364, "Text"],
 Cell[180089, 5638, 373, 9, 24, "Text"],
 Cell[180465, 5649, 670, 20, 55, "EquationNumbered"],
 Cell[181138, 5671, 295, 8, 49, "EquationNumbered"],
-Cell[181436, 5681, 290, 7, 49, "EquationNumbered"],
-Cell[181729, 5690, 369, 10, 49, "EquationNumbered"],
-Cell[182101, 5702, 587, 18, 66, "EquationNumbered"],
-Cell[182691, 5722, 805, 24, 52, "EquationNumbered"],
-Cell[183499, 5748, 160, 3, 24, "Text"],
-Cell[183662, 5753, 1218, 39, 109, "EquationNumbered"],
-Cell[184883, 5794, 1249, 42, 27, "Text"],
-Cell[186135, 5838, 640, 16, 49, "EquationNumbered"],
-Cell[186778, 5856, 988, 31, 67, "EquationNumbered"],
-Cell[187769, 5889, 97, 1, 24, "Text"],
-Cell[187869, 5892, 8860, 283, 240, "EquationNumbered"],
-Cell[196732, 6177, 163, 3, 24, "Text"],
-Cell[196898, 6182, 7856, 240, 253, "EquationNumbered"],
-Cell[204757, 6424, 48, 1, 32, "Text"],
-Cell[204808, 6427, 482, 11, 27, "Text"],
-Cell[205293, 6440, 6588, 220, 277, "EquationNumbered"],
-Cell[211884, 6662, 92, 1, 24, "Text"],
-Cell[211979, 6665, 1091, 36, 78, "EquationNumbered"],
-Cell[213073, 6703, 213, 4, 24, "Text"]
+Cell[181436, 5681, 340, 9, 49, "EquationNumbered"],
+Cell[181779, 5692, 369, 10, 49, "EquationNumbered"],
+Cell[182151, 5704, 587, 18, 66, "EquationNumbered"],
+Cell[182741, 5724, 805, 24, 52, "EquationNumbered"],
+Cell[183549, 5750, 160, 3, 24, "Text"],
+Cell[183712, 5755, 1218, 39, 109, "EquationNumbered"],
+Cell[184933, 5796, 696, 18, 49, "EquationNumbered"],
+Cell[185632, 5816, 988, 31, 67, "EquationNumbered"],
+Cell[186623, 5849, 97, 1, 24, "Text"],
+Cell[186723, 5852, 9428, 301, 240, "EquationNumbered"],
+Cell[196154, 6155, 163, 3, 24, "Text"],
+Cell[196320, 6160, 8641, 261, 298, "EquationNumbered"],
+Cell[204964, 6423, 48, 1, 32, "Text"],
+Cell[205015, 6426, 446, 16, 33, "Text"],
+Cell[205464, 6444, 303, 8, 32, "EquationNumbered"],
+Cell[205770, 6454, 318, 10, 27, "Text"],
+Cell[206091, 6466, 640, 14, 27, "Text"],
+Cell[206734, 6482, 6588, 220, 277, "EquationNumbered"],
+Cell[213325, 6704, 92, 1, 24, "Text"],
+Cell[213420, 6707, 1091, 36, 78, "EquationNumbered"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

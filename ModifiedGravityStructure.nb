@@ -1,0 +1,111 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      2871,        102]
+NotebookOptionsPosition[      1968,         68]
+NotebookOutlinePosition[      2649,         92]
+CellTagsIndexPosition[      2606,         89]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["INTRO", "Section",
+ CellChangeTimes->{{3.5492098109676924`*^9, 3.5492098137718525`*^9}}],
+
+Cell["\<\
+\[LightBulb] 
+\[LightBulb]
+\[LightBulb] \
+\>", "Text",
+ CellChangeTimes->{{3.549209816716021*^9, 3.549209902300916*^9}, {
+  3.5492099570250463`*^9, 3.5492099668376074`*^9}, {3.5492100104201*^9, 
+  3.549210025327953*^9}, {3.549210062742093*^9, 3.5492100659172745`*^9}, {
+  3.5492101713483047`*^9, 3.5492101960437174`*^9}, {3.5508380011535454`*^9, 
+  3.5508380015765696`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["PRE", "Section",
+ CellChangeTimes->{{3.549209801259137*^9, 3.5492098038102827`*^9}, {
+  3.5492100760058517`*^9, 3.5492100762278643`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Settings", "Subsection",
+ CellChangeTimes->{{3.549230781416133*^9, 3.5492308369973125`*^9}}],
+
+Cell["\<\
+Set work directory. Modify it to your own directory before runing this \
+program. DATA folder are placed in this directory. DATA folder should contain \
+the SN data files.\
+\>", "Text",
+ CellChangeTimes->{{3.549210368042555*^9, 3.5492104770457897`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "SetDirectory", "[", 
+   "\"\<E:\\\\Nutshare\\\\Store\\\\Notes\\\\ModifiedGravity\\\\ModiGraviDoc\>\
+\"", "]"}], ";"}]], "Input",
+ CellChangeTimes->{3.5508380193715878`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell["Contents", "Section",
+ CellChangeTimes->{{3.550838136573291*^9, 3.5508381403775086`*^9}}]
+},
+WindowToolbars->{},
+WindowSize->{1008, 681},
+WindowMargins->{{-8, Automatic}, {Automatic, 8}},
+DockedCells->{},
+FrontEndVersion->"8.0 for Microsoft Windows (32-bit) (February 23, 2011)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> 
+     FrontEnd`FileName[{"Creative"}, "PastelColor.nb", CharacterEncoding -> 
+       "CP936"]]]}, Visible -> False, FrontEndVersion -> 
+  "8.0 for Microsoft Windows (32-bit) (February 23, 2011)", StyleDefinitions -> 
+  "PrivateStylesheetFormatting.nb"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 94, 1, 75, "Section"],
+Cell[676, 25, 384, 9, 68, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1097, 39, 143, 2, 75, "Section"],
+Cell[CellGroupData[{
+Cell[1265, 45, 98, 1, 36, "Subsection"],
+Cell[1366, 48, 263, 5, 49, "Text"],
+Cell[1632, 55, 210, 6, 41, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[1869, 65, 95, 1, 75, "Section"]
+}
+]
+*)
+
+(* End of internal cache information *)
