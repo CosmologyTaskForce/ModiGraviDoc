@@ -2,6 +2,8 @@
 
 This is a document package on modified gravity. We choose mathematica as the editor to show more details including the programming techniques.
 
+Why do I set up this project? I always believe united we stand, divided we fall. Humanbeings are alive as a whole, not as individuals.
+
 
 ## What is modified gravity.
 
