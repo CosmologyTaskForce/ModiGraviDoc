@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    223831,       6983]
-NotebookOptionsPosition[    214563,       6749]
-NotebookOutlinePosition[    215505,       6783]
-CellTagsIndexPosition[    215338,       6775]
+NotebookDataLength[    238523,       7428]
+NotebookOptionsPosition[    228675,       7179]
+NotebookOutlinePosition[    229616,       7213]
+CellTagsIndexPosition[    229449,       7205]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2240,7 +2240,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.550590383856759*^9, 3.550590450542574*^9}, {
   3.5505905180634356`*^9, 3.55059055538157*^9}},
  Background->RGBColor[0.88, 1, 0.88]]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -3375,7 +3375,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.550625499531261*^9, 3.550625509328821*^9}},
  FontColor->GrayLevel[0],
  Background->RGBColor[1, 1, 0.85]]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -6743,12 +6743,442 @@ Cell[BoxData[
   3.550699445624607*^9, 3.550699446426653*^9}},
  Background->RGBColor[1, 1, 0.85]]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Perturbation",
+ FontColor->RGBColor[0.6, 0.4, 0.2]]], "Subsection",
+ CellChangeTimes->{{3.550898440289466*^9, 3.5508984464968214`*^9}}],
+
+Cell["\<\
+Perturbation of metric and \[CapitalGamma] can be calculated with the program \
+CosPer. Try it yourself.\
+\>", "Text",
+ CellChangeTimes->{{3.550898459646573*^9, 3.550898499185835*^9}, {
+  3.5509556658275795`*^9, 3.550955697735405*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Perturbed energy tensor of scalar field.\
+\>", "Subsubsection",
+ CellChangeTimes->{{3.550898509400419*^9, 3.5508985442914147`*^9}}],
+
+Cell[TextData[{
+ "Energy momentum tensor of a scalar field with ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["\[ScriptCapitalL]", "\[Phi]"], "=", 
+    RowBox[{"X", "+", "V"}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", in which ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"X", "=", 
+    RowBox[{
+     RowBox[{"-", 
+      FractionBox["1", "2"]}], 
+     SubscriptBox["\[Phi]", 
+      RowBox[{",", "\[Mu]"}]], 
+     SuperscriptBox["\[Phi]", 
+      RowBox[{",", "\[Mu]"}]]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.5509052967486334`*^9, 3.5509053683777304`*^9}}],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   SubscriptBox[
+    SuperscriptBox["T", "\[Mu]\[Nu]"], 
+    RowBox[{"(", "\[Phi]", ")"}]], "\[AlignmentMarker]", "=", 
+   RowBox[{
+    RowBox[{
+     FractionBox["2", 
+      SqrtBox[
+       RowBox[{"-", "g"}]]], 
+     FractionBox[
+      RowBox[{"\[Delta]", "(", 
+       RowBox[{
+        SqrtBox[
+         RowBox[{"-", "g"}]], 
+        SubscriptBox["\[ScriptCapitalL]", "\[Phi]"]}], ")"}], 
+      SubscriptBox["\[Delta]g", "\[Mu]\[Nu]"]]}], "=", 
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["g", "\[Mu]\[Nu]"], 
+      SubscriptBox["\[ScriptCapitalL]", "\[Phi]"]}], "+", 
+     RowBox[{
+      SuperscriptBox["\[Phi]", 
+       RowBox[{",", "\[Mu]"}]], 
+      SuperscriptBox["\[Phi]", 
+       RowBox[{",", "\[Nu]"}]], 
+      SubscriptBox["\[ScriptCapitalL]", 
+       RowBox[{"\[Phi]", ",", "X"}]]}]}]}]}], 
+  TraditionalForm], "\[LineSeparator]", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["g", "\[Mu]\[Nu]"], "(", 
+      RowBox[{"X", "+", "V"}], ")"}], "+", 
+     RowBox[{
+      SuperscriptBox["\[Phi]", 
+       RowBox[{",", "\[Mu]"}]], 
+      SuperscriptBox["\[Phi]", 
+       RowBox[{",", "\[Nu]"}]]}]}]}]}], TraditionalForm], "\[LineSeparator]", 
+ FormBox[
+  RowBox[{
+   SubscriptBox[
+    SuperscriptBox["T", "00"], 
+    RowBox[{"(", "\[Phi]", ")"}]], "\[AlignmentMarker]", "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         FractionBox["1", "2"], 
+         SuperscriptBox[
+          OverscriptBox["\[Phi]", "."], "2"]}], "+", "V"}], ")"}]}], "+", 
+     SuperscriptBox[
+      OverscriptBox["\[Phi]", "."], "2"]}], "=", 
+    RowBox[{
+     RowBox[{
+      FractionBox["1", "2"], 
+      SuperscriptBox[
+       OverscriptBox["\[Phi]", "."], "2"]}], "-", "V"}]}]}], 
+  TraditionalForm], "\[LineSeparator]", 
+ FormBox[
+  RowBox[{
+   SubscriptBox[
+    SuperscriptBox["T", "ij"], 
+    RowBox[{"(", "\[Phi]", ")"}]], "\[AlignmentMarker]", "=", 
+   RowBox[{
+    FractionBox["1", 
+     SuperscriptBox["a", "2"]], 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       FractionBox["1", "2"], 
+       SuperscriptBox[
+        OverscriptBox["\[Phi]", "."], "2"]}], "+", "V"}], ")"}]}]}], 
+  TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{{3.550898551564831*^9, 3.5508985794824276`*^9}, {
+   3.55089869386897*^9, 3.5508987395065804`*^9}, 3.5508987950057545`*^9, {
+   3.55089885489018*^9, 3.550898946311409*^9}, {3.5508990912376986`*^9, 
+   3.5508991804428005`*^9}, {3.5508994521703424`*^9, 
+   3.5508994775997972`*^9}, {3.5508998595236416`*^9, 
+   3.5508999326978273`*^9}, {3.550899968994903*^9, 3.550899982893698*^9}, 
+   3.550907166435573*^9, {3.5509072001154995`*^9, 3.550907248815285*^9}},
+ TextAlignment->AlignmentMarker],
+
+Cell["With one lower index", "Text",
+ CellChangeTimes->{{3.5509071722359047`*^9, 3.550907178109241*^9}}],
+
+Cell[BoxData[
+ FormBox[
+  RowBox[{
+   SubscriptBox[
+    SubsuperscriptBox["T", "\[Nu]", "\[Mu]"], 
+    RowBox[{"(", "\[Phi]", ")"}]], "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["g", "\[Nu]\[Lambda]"], 
+     SubsuperscriptBox["T", 
+      RowBox[{"(", "\[Phi]", ")"}], "\[Mu]\[Lambda]"]}], "=", 
+    RowBox[{
+     RowBox[{
+      SubscriptBox["g", "\[Nu]\[Lambda]"], "(", 
+      RowBox[{
+       RowBox[{
+        SuperscriptBox["g", "\[Mu]\[Lambda]"], 
+        SubscriptBox["\[ScriptCapitalL]", "\[Phi]"]}], "+", 
+       RowBox[{
+        SuperscriptBox["\[Phi]", 
+         RowBox[{",", "\[Mu]"}]], 
+        SuperscriptBox["\[Phi]", 
+         RowBox[{",", "\[Lambda]"}]], 
+        SubscriptBox["\[ScriptCapitalL]", 
+         RowBox[{"\[Phi]", ",", "X"}]]}]}], ")"}], "=", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        SubsuperscriptBox["\[Delta]", "\[Nu]", "\[Mu]"], 
+        SubscriptBox["\[ScriptCapitalL]", "\[Phi]"]}], "+", 
+       RowBox[{
+        SubscriptBox["g", "\[Nu]\[Lambda]"], 
+        SuperscriptBox["\[Phi]", 
+         RowBox[{",", "\[Mu]"}]], 
+        SuperscriptBox["\[Phi]", 
+         RowBox[{",", "\[Lambda]"}]], 
+        SubscriptBox["\[ScriptCapitalL]", 
+         RowBox[{"\[Phi]", ",", "X"}]]}]}], "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         SubsuperscriptBox["\[Delta]", "\[Nu]", "\[Mu]"], 
+         SubscriptBox["\[ScriptCapitalL]", "\[Phi]"]}], "+", 
+        RowBox[{
+         SubscriptBox["g", "\[Nu]\[Lambda]"], 
+         SuperscriptBox["\[Phi]", 
+          RowBox[{",", "\[Mu]"}]], 
+         SuperscriptBox["\[Phi]", 
+          RowBox[{",", "\[Lambda]"}]]}]}], "=", 
+       RowBox[{
+        RowBox[{
+         SubsuperscriptBox["\[Delta]", "\[Nu]", "\[Mu]"], 
+         SubscriptBox["\[ScriptCapitalL]", "\[Phi]"]}], "+", 
+        RowBox[{
+         SuperscriptBox["g", "\[Mu]\[Lambda]"], 
+         SubscriptBox["\[Phi]", 
+          RowBox[{",", "\[Lambda]"}]], 
+         SubscriptBox["\[Phi]", 
+          RowBox[{",", "\[Nu]"}]]}]}]}]}]}]}]}], 
+  TraditionalForm]], "EquationNumbered",
+ CellChangeTimes->{
+  3.5509071918590274`*^9, {3.5509546457332335`*^9, 3.550954658647972*^9}, {
+   3.55095469776721*^9, 3.5509547016814337`*^9}, {3.550954810694669*^9, 
+   3.5509548929303727`*^9}, {3.5509549423662004`*^9, 3.550954991071986*^9}, {
+   3.55095502209076*^9, 3.55095504761122*^9}, {3.5509550840363035`*^9, 
+   3.5509550842973185`*^9}, {3.5509568239128184`*^9, 3.55095682918612*^9}, {
+   3.550957063797539*^9, 3.550957112867346*^9}},
+ TextAlignment->AlignmentMarker],
+
+Cell["Perturbation of this scalar field EM tensor", "Text",
+ CellChangeTimes->{{3.550905381237466*^9, 3.550905392348101*^9}}],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{"\[Delta]", " ", 
+    SubsuperscriptBox["T", "\[Nu]", "\[Mu]"]}], "\[AlignmentMarker]", "=", 
+   RowBox[{
+    RowBox[{
+     SubsuperscriptBox["\[Delta]", "\[Nu]", "\[Mu]"], "\[Delta]", " ", 
+     SubscriptBox["\[ScriptCapitalL]", "\[Phi]"]}], "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"\[Delta]", " ", 
+       SuperscriptBox["g", "\[Mu]\[Lambda]"]}], ")"}], 
+     SubscriptBox["\[Phi]", 
+      RowBox[{",", "\[Lambda]"}]], 
+     SubscriptBox["\[Phi]", 
+      RowBox[{",", "\[Nu]"}]]}], "+", 
+    RowBox[{
+     SuperscriptBox["g", "\[Mu]\[Lambda]"], 
+     RowBox[{"\[Delta]", "(", 
+      RowBox[{
+       SubscriptBox["\[Phi]", 
+        RowBox[{",", "\[Lambda]"}]], 
+       SubscriptBox["\[Phi]", 
+        RowBox[{",", "\[Nu]"}]]}], ")"}]}]}]}], 
+  TraditionalForm], "\[LineSeparator]", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      SubsuperscriptBox["\[Delta]", "\[Nu]", "\[Mu]"], "\[Delta]", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          FractionBox["1", "2"]}], 
+         SuperscriptBox["g", "\[Alpha]\[Beta]"], 
+         SubscriptBox["\[Phi]", 
+          RowBox[{",", "\[Alpha]"}]], 
+         SubscriptBox["\[Phi]", 
+          RowBox[{",", "\[Beta]"}]]}], "+", "V"}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"\[Delta]", " ", 
+        SuperscriptBox["g", "\[Mu]\[Lambda]"]}], ")"}], 
+      SubscriptBox["\[Phi]", 
+       RowBox[{",", "\[Lambda]"}]], 
+      SubscriptBox["\[Phi]", 
+       RowBox[{",", "\[Nu]"}]]}], "+", 
+     RowBox[{
+      SuperscriptBox["g", "\[Mu]\[Lambda]"], 
+      RowBox[{"\[Delta]", "(", 
+       RowBox[{
+        SubscriptBox["\[Phi]", 
+         RowBox[{",", "\[Lambda]"}]], 
+        SubscriptBox["\[Phi]", 
+         RowBox[{",", "\[Nu]"}]]}], ")"}]}]}]}]}], 
+  TraditionalForm], "\[LineSeparator]", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      SubsuperscriptBox["\[Delta]", "\[Nu]", "\[Mu]"], "(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["1", "2"]}], "\[Delta]", " ", 
+        RowBox[{"(", 
+         SuperscriptBox["g", "\[Alpha]\[Beta]"], ")"}], 
+        SubscriptBox["\[Phi]", 
+         RowBox[{",", "\[Alpha]"}]], 
+        SubscriptBox["\[Phi]", 
+         RowBox[{",", "\[Beta]"}]]}], "-", 
+       RowBox[{
+        FractionBox["1", "2"], 
+        SuperscriptBox["g", "\[Alpha]\[Beta]"], "\[Delta]", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          SubscriptBox["\[Phi]", 
+           RowBox[{",", "\[Alpha]"}]], 
+          SubscriptBox["\[Phi]", 
+           RowBox[{",", "\[Beta]"}]]}], ")"}]}], "+", 
+       RowBox[{"\[Delta]", " ", "V"}]}], ")"}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"\[Delta]", " ", 
+        SuperscriptBox["g", "\[Mu]\[Lambda]"]}], ")"}], 
+      SubscriptBox["\[Phi]", 
+       RowBox[{",", "\[Lambda]"}]], 
+      SubscriptBox["\[Phi]", 
+       RowBox[{",", "\[Nu]"}]]}], "+", 
+     RowBox[{
+      SuperscriptBox["g", "\[Mu]\[Lambda]"], 
+      RowBox[{"\[Delta]", "(", 
+       RowBox[{
+        SubscriptBox["\[Phi]", 
+         RowBox[{",", "\[Lambda]"}]], 
+        SubscriptBox["\[Phi]", 
+         RowBox[{",", "\[Nu]"}]]}], ")"}]}]}]}]}], 
+  TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{
+  3.55090539652334*^9, {3.550905575258563*^9, 3.5509055902094183`*^9}, {
+   3.55095505163445*^9, 3.5509551119529*^9}, {3.550955378719158*^9, 
+   3.550955379813221*^9}, {3.550955478498865*^9, 3.550955593848463*^9}, {
+   3.5509557020466514`*^9, 3.5509557756678624`*^9}, {3.550956619648135*^9, 
+   3.550956636430095*^9}, {3.5509567123324366`*^9, 3.55095671450156*^9}, {
+   3.5509567746950035`*^9, 3.5509567770281367`*^9}, {3.5509570985175247`*^9, 
+   3.550957138841831*^9}, {3.5509571821703095`*^9, 3.550957182716341*^9}},
+ TextAlignment->AlignmentMarker],
+
+Cell["0-0 component", "Text",
+ CellChangeTimes->{{3.550957187653623*^9, 3.5509571960221024`*^9}}],
+
+Cell[BoxData[{
+ FormBox[
+  RowBox[{
+   RowBox[{"\[Delta]", " ", 
+    SubsuperscriptBox["T", "0", "0"]}], "\[AlignmentMarker]", "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", 
+      FractionBox["1", "2"]}], "\[Delta]", " ", 
+     RowBox[{"(", 
+      SuperscriptBox["g", "\[Alpha]\[Beta]"], ")"}], 
+     SubscriptBox["\[Phi]", 
+      RowBox[{",", "\[Alpha]"}]], 
+     SubscriptBox["\[Phi]", 
+      RowBox[{",", "\[Beta]"}]]}], "-", 
+    RowBox[{
+     FractionBox["1", "2"], 
+     SuperscriptBox["g", "\[Alpha]\[Beta]"], "\[Delta]", " ", 
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["\[Phi]", 
+        RowBox[{",", "\[Alpha]"}]], 
+       SubscriptBox["\[Phi]", 
+        RowBox[{",", "\[Beta]"}]]}], ")"}]}], "+", 
+    RowBox[{"\[Delta]", " ", "V"}], "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"\[Delta]", " ", 
+       SuperscriptBox["g", 
+        RowBox[{"0", "\[Lambda]"}]]}], ")"}], 
+     SubscriptBox["\[Phi]", 
+      RowBox[{",", "\[Lambda]"}]], 
+     SubscriptBox["\[Phi]", 
+      RowBox[{",", "0"}]]}], "+", 
+    RowBox[{
+     SuperscriptBox["g", 
+      RowBox[{"0", "\[Lambda]"}]], 
+     RowBox[{"\[Delta]", "(", 
+      RowBox[{
+       SubscriptBox["\[Phi]", 
+        RowBox[{",", "\[Lambda]"}]], 
+       SubscriptBox["\[Phi]", 
+        RowBox[{",", "0"}]]}], ")"}]}]}]}], 
+  TraditionalForm], "\[LineSeparator]", 
+ FormBox[
+  RowBox[{"\[AlignmentMarker]", 
+   RowBox[{"=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", 
+       FractionBox["1", "2"]}], "\[Delta]", " ", 
+      RowBox[{"(", 
+       SuperscriptBox["g", "00"], ")"}], 
+      SubscriptBox["\[Phi]", 
+       RowBox[{",", "0"}]], 
+      SubscriptBox["\[Phi]", 
+       RowBox[{",", "0"}]]}], "-", 
+     RowBox[{
+      FractionBox["1", "2"], 
+      RowBox[{
+       SuperscriptBox["g", "\[Alpha]\[Beta]"], "(", 
+       RowBox[{
+        RowBox[{"\[Delta]", " ", 
+         RowBox[{"(", 
+          SubscriptBox["\[Phi]", 
+           RowBox[{",", "\[Alpha]"}]], ")"}], 
+         SubscriptBox["\[Phi]", 
+          RowBox[{",", "\[Beta]"}]]}], "+", 
+        RowBox[{
+         SubscriptBox["\[Phi]", 
+          RowBox[{",", "\[Alpha]"}]], "\[Delta]", " ", 
+         RowBox[{"(", 
+          SubscriptBox["\[Phi]", 
+           RowBox[{",", "\[Beta]"}]], ")"}]}]}], ")"}]}], "+", 
+     RowBox[{
+      RowBox[{"V", "'"}], "\[Delta]\[Phi]"}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"\[Delta]", " ", 
+        SuperscriptBox["g", "00"]}], ")"}], 
+      SubscriptBox["\[Phi]", 
+       RowBox[{",", "0"}]], 
+      SubscriptBox["\[Phi]", 
+       RowBox[{",", "0"}]]}], "+", 
+     RowBox[{
+      SuperscriptBox["g", 
+       RowBox[{"0", "\[Lambda]"}]], "(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"\[Delta]", "(", 
+         SubscriptBox["\[Phi]", 
+          RowBox[{",", "\[Lambda]"}]], ")"}], 
+        SubscriptBox["\[Phi]", 
+         RowBox[{",", "0"}]]}], "+", 
+       RowBox[{
+        SubscriptBox["\[Phi]", 
+         RowBox[{",", "\[Lambda]"}]], 
+        RowBox[{"\[Delta]", "(", 
+         SubscriptBox["\[Phi]", 
+          RowBox[{",", "0"}]], ")"}]}]}], ")"}]}]}]}], 
+  TraditionalForm]}], "EquationNumbered",
+ CellChangeTimes->{{3.5509572123070335`*^9, 3.550957251162256*^9}, {
+  3.5509587899112673`*^9, 3.5509589728627315`*^9}, {3.5509590337852163`*^9, 
+  3.55095903437625*^9}},
+ TextAlignment->AlignmentMarker]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1008, 681},
-WindowMargins->{{-8, Automatic}, {Automatic, 0}},
+WindowSize->{1016, 681},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 FrontEndVersion->"8.0 for Microsoft Windows (32-bit) (February 23, 2011)",
 StyleDefinitions->FrontEnd`FileName[{"Article"}, "JournalArticle.nb", 
   CharacterEncoding -> "CP936"]
@@ -6774,10 +7204,10 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"FieldEqn", 214930, 6760},
- {"FieldEqnTrace", 215033, 6763},
- {"FieldEqn1", 215136, 6766},
- {"FieldEqn2", 215234, 6769}
+ {"FieldEqn", 229041, 7190},
+ {"FieldEqnTrace", 229144, 7193},
+ {"FieldEqn1", 229247, 7196},
+ {"FieldEqn2", 229345, 7199}
  }
 *)
 (*NotebookFileOutline
@@ -6906,7 +7336,7 @@ Cell[68219, 2188, 256, 5, 24, "Text"],
 Cell[68478, 2195, 150, 3, 24, "Text"],
 Cell[68631, 2200, 641, 20, 88, "EquationNumbered"],
 Cell[69275, 2222, 622, 19, 77, "EquationNumbered"]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
 Cell[69934, 2246, 134, 3, 26, "Subsubsection"],
 Cell[70071, 2251, 126, 1, 24, "Text"],
@@ -6924,7 +7354,7 @@ Cell[105292, 3315, 242, 7, 24, "Text"],
 Cell[105537, 3324, 322, 10, 28, "Text"],
 Cell[105862, 3336, 398, 11, 50, "EquationNumbered"],
 Cell[106263, 3349, 815, 27, 67, "EquationNumbered"]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
 Cell[107115, 3381, 140, 3, 26, "Subsubsection"],
 Cell[107258, 3386, 148, 3, 24, "Text"],
@@ -6981,6 +7411,21 @@ Cell[206091, 6466, 640, 14, 27, "Text"],
 Cell[206734, 6482, 6588, 220, 277, "EquationNumbered"],
 Cell[213325, 6704, 92, 1, 24, "Text"],
 Cell[213420, 6707, 1091, 36, 78, "EquationNumbered"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[214560, 6749, 159, 2, 34, "Subsection"],
+Cell[214722, 6753, 245, 5, 24, "Text"],
+Cell[CellGroupData[{
+Cell[214992, 6762, 141, 3, 26, "Subsubsection"],
+Cell[215136, 6767, 638, 22, 33, "Text"],
+Cell[215777, 6791, 2786, 86, 166, "EquationNumbered"],
+Cell[218566, 6879, 104, 1, 24, "Text"],
+Cell[218673, 6882, 2517, 67, 38, "EquationNumbered"],
+Cell[221193, 6951, 125, 1, 24, "Text"],
+Cell[221321, 6954, 3888, 110, 116, "EquationNumbered"],
+Cell[225212, 7066, 97, 1, 24, "Text"],
+Cell[225312, 7069, 3311, 104, 91, "EquationNumbered"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
